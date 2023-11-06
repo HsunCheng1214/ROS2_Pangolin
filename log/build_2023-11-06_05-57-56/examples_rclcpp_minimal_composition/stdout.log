@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target composition_nodes[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[ 33%] Built target composition_nodes
+[35m[1mScanning dependencies of target composition_composed[0m
+[35m[1mScanning dependencies of target composition_subscriber[0m
+[35m[1mScanning dependencies of target composition_publisher[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable composition_publisher[0m
+[ 88%] [32m[1mLinking CXX executable composition_subscriber[0m
+[100%] [32m[1mLinking CXX executable composition_composed[0m
+[100%] Built target composition_publisher
+[100%] Built target composition_subscriber
+[100%] Built target composition_composed

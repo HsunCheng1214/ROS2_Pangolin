@@ -1,0 +1,321 @@
+[0.000000] (-) TimerEvent: {}
+[0.000939] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.001248] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.002283] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.002790] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.003035] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.003130] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.003205] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.003276] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.003346] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.003415] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.003484] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.003553] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.003621] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.003690] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.003757] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.003824] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.003893] (examples_rclcpp_minimal_action_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.099105] (-) TimerEvent: {}
+[0.200051] (-) TimerEvent: {}
+[0.301517] (-) TimerEvent: {}
+[0.403466] (examples_rclcpp_minimal_action_server) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.405095] (-) TimerEvent: {}
+[0.505807] (-) TimerEvent: {}
+[0.607249] (-) TimerEvent: {}
+[0.709356] (-) TimerEvent: {}
+[0.786403] (examples_rclcpp_minimal_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.810107] (-) TimerEvent: {}
+[0.910955] (-) TimerEvent: {}
+[1.016431] (-) TimerEvent: {}
+[1.119149] (-) TimerEvent: {}
+[1.187817] (examples_rclcpp_minimal_composition) JobStarted: {'identifier': 'examples_rclcpp_minimal_composition'}
+[1.219501] (-) TimerEvent: {}
+[1.320643] (-) TimerEvent: {}
+[1.421695] (-) TimerEvent: {}
+[1.523115] (-) TimerEvent: {}
+[1.576037] (examples_rclcpp_minimal_action_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_client', 'progress': 'cmake'}
+[1.577110] (examples_rclcpp_minimal_action_client) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/pangolin_ws/src/examples/rclcpp/actions/minimal_action_client', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/pangolin_ws/install/examples_rclcpp_minimal_action_client'], 'cwd': '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_action_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.100.3.84 55476 22'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pangolin_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-94f1dc2f-10dc-4a93-8265-1a764e293957.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dad4036cfe.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_action_client'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.100.3.84 55476 10.100.3.134 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.599428] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'cmake'}
+[1.600625] (examples_rclcpp_minimal_action_server) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/pangolin_ws/src/examples/rclcpp/actions/minimal_action_server', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/pangolin_ws/install/examples_rclcpp_minimal_action_server'], 'cwd': '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_action_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.100.3.84 55476 22'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pangolin_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-94f1dc2f-10dc-4a93-8265-1a764e293957.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dad4036cfe.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_action_server'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.100.3.84 55476 10.100.3.134 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.615110] (examples_rclcpp_minimal_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_client', 'progress': 'cmake'}
+[1.616014] (examples_rclcpp_minimal_client) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/pangolin_ws/src/examples/rclcpp/services/minimal_client', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/pangolin_ws/install/examples_rclcpp_minimal_client'], 'cwd': '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.100.3.84 55476 22'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pangolin_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-94f1dc2f-10dc-4a93-8265-1a764e293957.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dad4036cfe.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_client'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.100.3.84 55476 10.100.3.134 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.627272] (-) TimerEvent: {}
+[1.653701] (examples_rclcpp_minimal_composition) JobProgress: {'identifier': 'examples_rclcpp_minimal_composition', 'progress': 'cmake'}
+[1.655397] (examples_rclcpp_minimal_composition) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/pangolin_ws/src/examples/rclcpp/composition/minimal_composition', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/pangolin_ws/install/examples_rclcpp_minimal_composition'], 'cwd': '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_composition', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.100.3.84 55476 22'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pangolin_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-94f1dc2f-10dc-4a93-8265-1a764e293957.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dad4036cfe.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_composition'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.100.3.84 55476 10.100.3.134 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.727551] (-) TimerEvent: {}
+[1.828956] (-) TimerEvent: {}
+[1.929871] (-) TimerEvent: {}
+[2.030750] (-) TimerEvent: {}
+[2.131623] (-) TimerEvent: {}
+[2.232777] (-) TimerEvent: {}
+[2.333994] (-) TimerEvent: {}
+[2.434900] (-) TimerEvent: {}
+[2.536954] (-) TimerEvent: {}
+[2.638820] (-) TimerEvent: {}
+[2.739877] (-) TimerEvent: {}
+[2.781267] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.783340] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.784609] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.790123] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.840089] (-) TimerEvent: {}
+[2.940930] (-) TimerEvent: {}
+[3.042101] (-) TimerEvent: {}
+[3.143102] (-) TimerEvent: {}
+[3.244190] (-) TimerEvent: {}
+[3.346645] (-) TimerEvent: {}
+[3.448134] (-) TimerEvent: {}
+[3.550081] (-) TimerEvent: {}
+[3.651531] (-) TimerEvent: {}
+[3.662345] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.663266] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.666191] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.668311] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.693567] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.694377] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.694981] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.695552] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.751702] (-) TimerEvent: {}
+[3.852501] (-) TimerEvent: {}
+[3.953813] (-) TimerEvent: {}
+[4.055780] (-) TimerEvent: {}
+[4.156940] (-) TimerEvent: {}
+[4.209628] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.213151] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.219600] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.225821] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.233625] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.237685] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.238190] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.238691] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.257091] (-) TimerEvent: {}
+[4.358180] (-) TimerEvent: {}
+[4.459267] (-) TimerEvent: {}
+[4.560446] (-) TimerEvent: {}
+[4.659073] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.660537] (-) TimerEvent: {}
+[4.662090] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.679493] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.687191] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.718751] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.720900] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.722650] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.723953] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.736455] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.737135] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.739701] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.741469] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.748881] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.751286] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.752202] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.760755] (-) TimerEvent: {}
+[4.763522] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.861111] (-) TimerEvent: {}
+[4.962557] (-) TimerEvent: {}
+[5.064322] (-) TimerEvent: {}
+[5.165852] (-) TimerEvent: {}
+[5.220006] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.227537] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.230601] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.238282] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.242262] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.252090] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.263192] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.266010] (-) TimerEvent: {}
+[5.268440] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.366309] (-) TimerEvent: {}
+[5.467504] (-) TimerEvent: {}
+[5.568838] (-) TimerEvent: {}
+[5.670398] (-) TimerEvent: {}
+[5.729602] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.731329] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.750457] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.770613] (-) TimerEvent: {}
+[5.780750] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.793748] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.796153] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.796880] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.798497] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.814542] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.815481] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.818721] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.821978] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.822841] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.824955] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.841902] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.842694] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.870820] (-) TimerEvent: {}
+[5.971752] (-) TimerEvent: {}
+[5.974516] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.976261] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.987557] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.991805] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.011606] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.013303] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.024345] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[6.027009] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.071978] (-) TimerEvent: {}
+[6.172969] (-) TimerEvent: {}
+[6.273928] (-) TimerEvent: {}
+[6.374860] (-) TimerEvent: {}
+[6.475946] (-) TimerEvent: {}
+[6.576824] (-) TimerEvent: {}
+[6.677707] (-) TimerEvent: {}
+[6.778584] (-) TimerEvent: {}
+[6.879529] (-) TimerEvent: {}
+[6.980659] (-) TimerEvent: {}
+[7.035878] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.081009] (-) TimerEvent: {}
+[7.099059] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.107952] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.181176] (-) TimerEvent: {}
+[7.185513] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.281618] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'CMake Error at CMakeLists.txt:14 (find_package):\n'}
+[7.282274] (-) TimerEvent: {}
+[7.282773] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[7.283287] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[7.283615] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  "example_interfaces", but CMake did not find one.\n'}
+[7.283945] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\n'}
+[7.284326] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[7.284648] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  "example_interfaces" with any of the following names:\n'}
+[7.284958] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\n'}
+[7.285226] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'    example_interfacesConfig.cmake\n'}
+[7.285549] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'    example_interfaces-config.cmake\n'}
+[7.285813] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\n'}
+[7.286058] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[7.286300] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  set "example_interfaces_DIR" to a directory containing one of the above\n'}
+[7.286656] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  files.  If "example_interfaces" provides a separate development package or\n'}
+[7.289802] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[7.290603] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\n'}
+[7.291851] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\n'}
+[7.292930] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.293858] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'See also "/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_action_client/CMakeFiles/CMakeOutput.log".\n'}
+[7.305321] (examples_rclcpp_minimal_action_client) CommandEnded: {'returncode': 1}
+[7.324347] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'CMake Error at CMakeLists.txt:14 (find_package):\n'}
+[7.325034] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[7.325725] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[7.326252] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  "example_interfaces", but CMake did not find one.\n'}
+[7.326709] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\n'}
+[7.327114] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[7.327452] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  "example_interfaces" with any of the following names:\n'}
+[7.327806] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\n'}
+[7.328590] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'    example_interfacesConfig.cmake\n'}
+[7.329069] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'    example_interfaces-config.cmake\n'}
+[7.329569] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\n'}
+[7.330257] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[7.330986] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  set "example_interfaces_DIR" to a directory containing one of the above\n'}
+[7.331679] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  files.  If "example_interfaces" provides a separate development package or\n'}
+[7.332844] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[7.334593] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\n'}
+[7.335768] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\n'}
+[7.337086] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.353696] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'See also "/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/CMakeOutput.log".\n'}
+[7.355010] (examples_rclcpp_minimal_client) StderrLine: {'line': b'CMake Error at CMakeLists.txt:14 (find_package):\n'}
+[7.356443] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[7.358130] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[7.359153] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  "example_interfaces", but CMake did not find one.\n'}
+[7.360405] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\n'}
+[7.361336] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[7.367235] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  "example_interfaces" with any of the following names:\n'}
+[7.368495] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\n'}
+[7.369597] (examples_rclcpp_minimal_client) StderrLine: {'line': b'    example_interfacesConfig.cmake\n'}
+[7.370799] (examples_rclcpp_minimal_client) StderrLine: {'line': b'    example_interfaces-config.cmake\n'}
+[7.371859] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\n'}
+[7.382676] (-) TimerEvent: {}
+[7.385779] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[7.388310] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  set "example_interfaces_DIR" to a directory containing one of the above\n'}
+[7.390254] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  files.  If "example_interfaces" provides a separate development package or\n'}
+[7.390925] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[7.391708] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\n'}
+[7.392380] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\n'}
+[7.402097] (examples_rclcpp_minimal_action_server) CommandEnded: {'returncode': 1}
+[7.403950] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.409092] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'See also "/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_client/CMakeFiles/CMakeOutput.log".\n'}
+[7.409899] (examples_rclcpp_minimal_client) CommandEnded: {'returncode': 1}
+[7.411993] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[7.485867] (-) TimerEvent: {}
+[7.587972] (-) TimerEvent: {}
+[7.627140] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.668009] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[7.688165] (-) TimerEvent: {}
+[7.747950] (examples_rclcpp_minimal_action_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_client', 'rc': 1}
+[7.751906] (examples_rclcpp_minimal_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_client', 'rc': 'SIGINT'}
+[7.753574] (examples_rclcpp_minimal_action_server) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_server', 'rc': 'SIGINT'}
+[7.788385] (-) TimerEvent: {}
+[7.905900] (-) TimerEvent: {}
+[8.006756] (-) TimerEvent: {}
+[8.044116] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[8.106934] (-) TimerEvent: {}
+[8.150179] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[8.207100] (-) TimerEvent: {}
+[8.307768] (-) TimerEvent: {}
+[8.408429] (-) TimerEvent: {}
+[8.473730] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.508593] (-) TimerEvent: {}
+[8.609278] (-) TimerEvent: {}
+[8.701251] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.706269] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.709429] (-) TimerEvent: {}
+[8.713160] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.809613] (-) TimerEvent: {}
+[8.910315] (-) TimerEvent: {}
+[9.011191] (-) TimerEvent: {}
+[9.033287] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.034375] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.111407] (-) TimerEvent: {}
+[9.212207] (-) TimerEvent: {}
+[9.312967] (-) TimerEvent: {}
+[9.340751] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[9.341766] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[9.413171] (-) TimerEvent: {}
+[9.514036] (-) TimerEvent: {}
+[9.601507] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[9.602322] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[9.614194] (-) TimerEvent: {}
+[9.715073] (-) TimerEvent: {}
+[9.815859] (-) TimerEvent: {}
+[9.889481] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.893317] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.916023] (-) TimerEvent: {}
+[10.016673] (-) TimerEvent: {}
+[10.117385] (-) TimerEvent: {}
+[10.218073] (-) TimerEvent: {}
+[10.318766] (-) TimerEvent: {}
+[10.419444] (-) TimerEvent: {}
+[10.480631] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[10.519613] (-) TimerEvent: {}
+[10.620232] (-) TimerEvent: {}
+[10.720931] (-) TimerEvent: {}
+[10.726002] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.821102] (-) TimerEvent: {}
+[10.921867] (-) TimerEvent: {}
+[11.022858] (-) TimerEvent: {}
+[11.068408] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.078356] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.079661] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ubuntu/pangolin_ws/src/examples/rclcpp/composition/minimal_composition/include\n'}
+[11.080140] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.088439] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.089006] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.093274] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.102933] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.103486] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.105761] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.123000] (-) TimerEvent: {}
+[11.129886] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.205627] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Generating done\n'}
+[11.213057] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_composition\n'}
+[11.223378] (-) TimerEvent: {}
+[11.242604] (examples_rclcpp_minimal_composition) JobEnded: {'identifier': 'examples_rclcpp_minimal_composition', 'rc': 'SIGINT'}
+[11.255453] (examples_rclcpp_minimal_publisher) JobSkipped: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[11.255877] (examples_rclcpp_minimal_service) JobSkipped: {'identifier': 'examples_rclcpp_minimal_service'}
+[11.256140] (examples_rclcpp_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[11.256397] (examples_rclcpp_minimal_timer) JobSkipped: {'identifier': 'examples_rclcpp_minimal_timer'}
+[11.256624] (examples_rclcpp_multithreaded_executor) JobSkipped: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[11.256773] (examples_rclpy_executors) JobSkipped: {'identifier': 'examples_rclpy_executors'}
+[11.256910] (examples_rclpy_minimal_action_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_client'}
+[11.257047] (examples_rclpy_minimal_action_server) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_server'}
+[11.257181] (examples_rclpy_minimal_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_client'}
+[11.257315] (examples_rclpy_minimal_publisher) JobSkipped: {'identifier': 'examples_rclpy_minimal_publisher'}
+[11.257502] (examples_rclpy_minimal_service) JobSkipped: {'identifier': 'examples_rclpy_minimal_service'}
+[11.257648] (examples_rclpy_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[11.257782] (-) EventReactorShutdown: {}

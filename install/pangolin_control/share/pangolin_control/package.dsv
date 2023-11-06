@@ -1,0 +1,9 @@
+source;share/pangolin_control/hook/pythonpath.ps1
+source;share/pangolin_control/hook/pythonpath.dsv
+source;share/pangolin_control/hook/pythonpath.sh
+source;share/pangolin_control/hook/ament_prefix_path.ps1
+source;share/pangolin_control/hook/ament_prefix_path.dsv
+source;share/pangolin_control/hook/ament_prefix_path.sh
+source;../../build/pangolin_control/share/pangolin_control/hook/pythonpath_develop.ps1
+source;../../build/pangolin_control/share/pangolin_control/hook/pythonpath_develop.dsv
+source;../../build/pangolin_control/share/pangolin_control/hook/pythonpath_develop.sh

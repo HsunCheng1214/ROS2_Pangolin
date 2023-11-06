@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.001081] (-) JobUnselected: {'identifier': 'pangolin_control'}
+[0.001428] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002185] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099179] (-) TimerEvent: {}
+[0.200633] (-) TimerEvent: {}
+[0.302214] (-) TimerEvent: {}
+[0.404007] (-) TimerEvent: {}
+[0.505641] (-) TimerEvent: {}
+[0.607715] (-) TimerEvent: {}
+[0.708960] (-) TimerEvent: {}
+[0.810048] (-) TimerEvent: {}
+[0.910996] (-) TimerEvent: {}
+[1.011790] (-) TimerEvent: {}
+[1.112653] (-) TimerEvent: {}
+[1.214102] (-) TimerEvent: {}
+[1.314767] (-) TimerEvent: {}
+[1.415454] (-) TimerEvent: {}
+[1.516135] (-) TimerEvent: {}
+[1.618125] (-) TimerEvent: {}
+[1.719518] (-) TimerEvent: {}
+[1.820682] (-) TimerEvent: {}
+[1.922714] (-) TimerEvent: {}
+[2.026064] (-) TimerEvent: {}
+[2.127468] (-) TimerEvent: {}
+[2.228401] (-) TimerEvent: {}
+[2.329088] (-) TimerEvent: {}
+[2.429757] (-) TimerEvent: {}
+[2.530424] (-) TimerEvent: {}
+[2.631066] (-) TimerEvent: {}
+[2.731715] (-) TimerEvent: {}
+[2.832430] (-) TimerEvent: {}
+[2.933330] (-) TimerEvent: {}
+[3.034016] (-) TimerEvent: {}
+[3.134674] (-) TimerEvent: {}
+[3.235449] (-) TimerEvent: {}
+[3.336240] (-) TimerEvent: {}
+[3.437570] (-) TimerEvent: {}
+[3.448123] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/ubuntu/pangolin_ws/build/py_pubsub/build', 'install', '--record', '/home/ubuntu/pangolin_ws/build/py_pubsub/install.log', '--install-scripts', '$base/lib/py_pubsub', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/pangolin_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.100.3.84 39056 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/pangolin_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a067d1f6-2413-4da4-9ca8-d5f571928330.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dad4036cfe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pangolin_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.100.3.84 39056 10.100.3.134 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pangolin_ws/build/py_pubsub/prefix_override:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1'}, 'shell': False}
+[3.537778] (-) TimerEvent: {}
+[3.638706] (-) TimerEvent: {}
+[3.739430] (-) TimerEvent: {}
+[3.840120] (-) TimerEvent: {}
+[3.940760] (-) TimerEvent: {}
+[4.041405] (-) TimerEvent: {}
+[4.142082] (-) TimerEvent: {}
+[4.200301] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[4.202273] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[4.202874] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[4.203829] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[4.204513] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[4.205040] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[4.205544] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[4.217365] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.242232] (-) TimerEvent: {}
+[4.337437] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.340341] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[4.340973] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[4.341513] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[4.342170] (py_pubsub) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/build/py_pubsub/build\n'}
+[4.342672] (-) TimerEvent: {}
+[4.343060] (py_pubsub) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/build/py_pubsub/build/lib\n'}
+[4.343740] (py_pubsub) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[4.344286] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/publisher_member_function.py -> /home/ubuntu/pangolin_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[4.344683] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/ubuntu/pangolin_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[4.345171] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/ubuntu/pangolin_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[4.345532] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[4.347601] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[4.351619] (py_pubsub) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[4.352335] (py_pubsub) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[4.352852] (py_pubsub) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[4.353370] (py_pubsub) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[4.355562] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc\n'}
+[4.360737] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc\n'}
+[4.362316] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc\n'}
+[4.363190] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[4.365021] (py_pubsub) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/py_pubsub/share/ament_index\n'}
+[4.365757] (py_pubsub) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[4.366180] (py_pubsub) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[4.366659] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/ubuntu/pangolin_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[4.367136] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub\n'}
+[4.367513] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.373072] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[4.377368] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[4.437051] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.437754] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/py_pubsub\n'}
+[4.439050] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/pangolin_ws/build/py_pubsub/install.log'\n"}
+[4.443175] (-) TimerEvent: {}
+[4.531242] (py_pubsub) CommandEnded: {'returncode': 0}
+[4.543914] (-) TimerEvent: {}
+[4.645201] (-) TimerEvent: {}
+[4.746622] (-) TimerEvent: {}
+[4.848218] (-) TimerEvent: {}
+[4.934990] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[4.937587] (-) EventReactorShutdown: {}

@@ -1,0 +1,39 @@
+[1.206s] Invoking command in '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/pangolin_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pangolin_ws/install/examples_rclcpp_minimal_action_server
+[2.381s] -- The C compiler identification is GNU 9.4.0
+[3.259s] -- The CXX compiler identification is GNU 9.4.0
+[3.292s] -- Check for working C compiler: /usr/bin/cc
+[3.834s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.835s] -- Detecting C compiler ABI info
+[4.276s] -- Detecting C compiler ABI info - done
+[4.319s] -- Detecting C compile features
+[4.320s] -- Detecting C compile features - done
+[4.333s] -- Check for working CXX compiler: /usr/bin/c++
+[4.827s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.835s] -- Detecting CXX compiler ABI info
+[5.327s] -- Detecting CXX compiler ABI info - done
+[5.415s] -- Detecting CXX compile features
+[5.418s] -- Detecting CXX compile features - done
+[5.438s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[5.621s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.623s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.695s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.921s] CMake Error at CMakeLists.txt:14 (find_package):
+[6.921s]   By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this
+[6.922s]   project has asked CMake to find a package configuration file provided by
+[6.922s]   "example_interfaces", but CMake did not find one.
+[6.923s] 
+[6.923s]   Could not find a package configuration file provided by
+[6.923s]   "example_interfaces" with any of the following names:
+[6.924s] 
+[6.925s]     example_interfacesConfig.cmake
+[6.925s]     example_interfaces-config.cmake
+[6.926s] 
+[6.927s]   Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or
+[6.927s]   set "example_interfaces_DIR" to a directory containing one of the above
+[6.928s]   files.  If "example_interfaces" provides a separate development package or
+[6.930s]   SDK, be sure it has been installed.
+[6.931s] 
+[6.932s] 
+[6.948s] -- Configuring incomplete, errors occurred!
+[6.950s] See also "/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_action_server/CMakeFiles/CMakeOutput.log".
+[6.999s] Invoked command in '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_action_server' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/pangolin_ws/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pangolin_ws/install/examples_rclcpp_minimal_action_server

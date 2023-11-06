@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ubuntu/pangolin_ws/src/examples/rclcpp/composition/minimal_composition -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pangolin_ws/install/examples_rclcpp_minimal_composition

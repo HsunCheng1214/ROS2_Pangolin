@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.001023] (pangolin_control) JobQueued: {'identifier': 'pangolin_control', 'dependencies': OrderedDict()}
+[0.001353] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002104] (pangolin_control) JobStarted: {'identifier': 'pangolin_control'}
+[0.099335] (-) TimerEvent: {}
+[0.200509] (-) TimerEvent: {}
+[0.302720] (-) TimerEvent: {}
+[0.404172] (-) TimerEvent: {}
+[0.505172] (-) TimerEvent: {}
+[0.607776] (-) TimerEvent: {}
+[0.709985] (-) TimerEvent: {}
+[0.793404] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.810259] (-) TimerEvent: {}
+[0.910931] (-) TimerEvent: {}
+[1.012727] (-) TimerEvent: {}
+[1.114431] (-) TimerEvent: {}
+[1.216938] (-) TimerEvent: {}
+[1.317811] (-) TimerEvent: {}
+[1.419397] (-) TimerEvent: {}
+[1.523017] (-) TimerEvent: {}
+[1.625136] (-) TimerEvent: {}
+[1.726085] (-) TimerEvent: {}
+[1.826863] (-) TimerEvent: {}
+[1.927641] (-) TimerEvent: {}
+[2.028414] (-) TimerEvent: {}
+[2.129105] (-) TimerEvent: {}
+[2.229812] (-) TimerEvent: {}
+[2.330601] (-) TimerEvent: {}
+[2.431501] (-) TimerEvent: {}
+[2.532993] (-) TimerEvent: {}
+[2.635560] (-) TimerEvent: {}
+[2.737166] (-) TimerEvent: {}
+[2.839409] (-) TimerEvent: {}
+[2.940175] (-) TimerEvent: {}
+[3.041906] (-) TimerEvent: {}
+[3.144029] (-) TimerEvent: {}
+[3.244891] (-) TimerEvent: {}
+[3.345831] (-) TimerEvent: {}
+[3.446586] (-) TimerEvent: {}
+[3.547288] (-) TimerEvent: {}
+[3.647971] (-) TimerEvent: {}
+[3.748655] (-) TimerEvent: {}
+[3.849495] (-) TimerEvent: {}
+[3.950679] (-) TimerEvent: {}
+[4.052530] (-) TimerEvent: {}
+[4.154620] (-) TimerEvent: {}
+[4.256080] (-) TimerEvent: {}
+[4.356947] (-) TimerEvent: {}
+[4.458832] (-) TimerEvent: {}
+[4.560499] (-) TimerEvent: {}
+[4.661468] (-) TimerEvent: {}
+[4.762309] (-) TimerEvent: {}
+[4.863181] (-) TimerEvent: {}
+[4.964066] (-) TimerEvent: {}
+[5.065283] (-) TimerEvent: {}
+[5.166686] (-) TimerEvent: {}
+[5.267916] (-) TimerEvent: {}
+[5.368699] (-) TimerEvent: {}
+[5.469932] (-) TimerEvent: {}
+[5.570863] (-) TimerEvent: {}
+[5.671918] (-) TimerEvent: {}
+[5.772832] (-) TimerEvent: {}
+[5.873816] (-) TimerEvent: {}
+[5.975264] (-) TimerEvent: {}
+[6.038237] (pangolin_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/pangolin_ws/build/pangolin_control/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/pangolin_ws/build/pangolin_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.100.3.84 39056 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/pangolin_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a067d1f6-2413-4da4-9ca8-d5f571928330.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install:/home/ubuntu/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dad4036cfe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install/pangolin_control:/home/ubuntu/pangolin_ws/install/py_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pangolin_ws/build/pangolin_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.100.3.84 39056 10.100.3.134 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/py_pubsub:/home/ubuntu/pangolin_ws/build/pangolin_control:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1'}, 'shell': False}
+[6.075633] (-) TimerEvent: {}
+[6.113072] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/pangolin_ws/build/py_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/pangolin_ws/build/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.100.3.84 39056 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/pangolin_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a067d1f6-2413-4da4-9ca8-d5f571928330.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install:/home/ubuntu/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dad4036cfe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install/pangolin_control:/home/ubuntu/pangolin_ws/install/py_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pangolin_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.100.3.84 39056 10.100.3.134 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pangolin_ws/build/py_pubsub/prefix_override:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/py_pubsub:/home/ubuntu/pangolin_ws/build/pangolin_control:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1'}, 'shell': False}
+[6.175759] (-) TimerEvent: {}
+[6.276753] (-) TimerEvent: {}
+[6.377822] (-) TimerEvent: {}
+[6.478557] (-) TimerEvent: {}
+[6.579327] (-) TimerEvent: {}
+[6.680197] (-) TimerEvent: {}
+[6.780929] (-) TimerEvent: {}
+[6.881696] (-) TimerEvent: {}
+[6.982459] (-) TimerEvent: {}
+[7.033229] (pangolin_control) StdoutLine: {'line': b'running develop\n'}
+[7.078153] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[7.082651] (-) TimerEvent: {}
+[7.183502] (-) TimerEvent: {}
+[7.284327] (-) TimerEvent: {}
+[7.385093] (-) TimerEvent: {}
+[7.485893] (-) TimerEvent: {}
+[7.586768] (-) TimerEvent: {}
+[7.588103] (pangolin_control) StdoutLine: {'line': b'running egg_info\n'}
+[7.588958] (pangolin_control) StdoutLine: {'line': b'writing pangolin_control.egg-info/PKG-INFO\n'}
+[7.589799] (pangolin_control) StdoutLine: {'line': b'writing dependency_links to pangolin_control.egg-info/dependency_links.txt\n'}
+[7.590823] (pangolin_control) StdoutLine: {'line': b'writing entry points to pangolin_control.egg-info/entry_points.txt\n'}
+[7.591658] (pangolin_control) StdoutLine: {'line': b'writing requirements to pangolin_control.egg-info/requires.txt\n'}
+[7.592587] (pangolin_control) StdoutLine: {'line': b'writing top-level names to pangolin_control.egg-info/top_level.txt\n'}
+[7.641907] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[7.642639] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[7.643496] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[7.644554] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[7.645359] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[7.650802] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[7.686934] (-) TimerEvent: {}
+[7.724451] (pangolin_control) StdoutLine: {'line': b"reading manifest file 'pangolin_control.egg-info/SOURCES.txt'\n"}
+[7.728439] (pangolin_control) StdoutLine: {'line': b"writing manifest file 'pangolin_control.egg-info/SOURCES.txt'\n"}
+[7.735215] (pangolin_control) StdoutLine: {'line': b'running build_ext\n'}
+[7.736578] (pangolin_control) StdoutLine: {'line': b'Creating /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin-control.egg-link (link to .)\n'}
+[7.739998] (pangolin_control) StdoutLine: {'line': b'Installing pangolin_start script to /home/ubuntu/pangolin_ws/install/pangolin_control/lib/pangolin_control\n'}
+[7.741398] (pangolin_control) StdoutLine: {'line': b'\n'}
+[7.742187] (pangolin_control) StdoutLine: {'line': b'Installed /home/ubuntu/pangolin_ws/build/pangolin_control\n'}
+[7.742967] (pangolin_control) StdoutLine: {'line': b'running install_data\n'}
+[7.787212] (-) TimerEvent: {}
+[7.791598] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[7.797760] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[7.807727] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[7.809939] (py_pubsub) StdoutLine: {'line': b'Creating /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)\n'}
+[7.815559] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.816901] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.818726] (py_pubsub) StdoutLine: {'line': b'\n'}
+[7.819804] (py_pubsub) StdoutLine: {'line': b'Installed /home/ubuntu/pangolin_ws/build/py_pubsub\n'}
+[7.820956] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[7.865855] (pangolin_control) CommandEnded: {'returncode': 0}
+[7.887589] (-) TimerEvent: {}
+[7.999388] (-) TimerEvent: {}
+[8.103738] (-) TimerEvent: {}
+[8.205351] (-) TimerEvent: {}
+[8.306747] (-) TimerEvent: {}
+[8.409589] (-) TimerEvent: {}
+[8.494142] (pangolin_control) JobEnded: {'identifier': 'pangolin_control', 'rc': 0}
+[8.497779] (py_pubsub) CommandEnded: {'returncode': 0}
+[8.510479] (-) TimerEvent: {}
+[8.611439] (-) TimerEvent: {}
+[8.713018] (-) TimerEvent: {}
+[8.814695] (-) TimerEvent: {}
+[8.916153] (-) TimerEvent: {}
+[9.017329] (-) TimerEvent: {}
+[9.023561] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[9.027661] (-) EventReactorShutdown: {}

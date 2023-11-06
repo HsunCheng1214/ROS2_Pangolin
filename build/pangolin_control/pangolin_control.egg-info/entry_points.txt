@@ -1,0 +1,3 @@
+[console_scripts]
+pangolin_start = pangolin_control.joystick_motor_new:main
+

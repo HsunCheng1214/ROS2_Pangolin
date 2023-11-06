@@ -1,0 +1,59 @@
+running egg_info
+creating ../../build/pangolin_control/pangolin_control.egg-info
+writing ../../build/pangolin_control/pangolin_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/pangolin_control/pangolin_control.egg-info/dependency_links.txt
+writing entry points to ../../build/pangolin_control/pangolin_control.egg-info/entry_points.txt
+writing requirements to ../../build/pangolin_control/pangolin_control.egg-info/requires.txt
+writing top-level names to ../../build/pangolin_control/pangolin_control.egg-info/top_level.txt
+writing manifest file '../../build/pangolin_control/pangolin_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/pangolin_control/pangolin_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/pangolin_control/pangolin_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/pangolin_ws/build/pangolin_control/build
+creating /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib
+creating /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+copying pangolin_control/Board.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+copying pangolin_control/RGB_Change.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+copying pangolin_control/multi_robot_datatype.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+copying pangolin_control/joystick_motor_new.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+copying pangolin_control/joystick_motor_old.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+copying pangolin_control/PWMServoControl.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+copying pangolin_control/ServoCmd.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+copying pangolin_control/joystick_pi.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+copying pangolin_control/joystick.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+copying pangolin_control/__init__.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control
+running install
+running install_lib
+creating /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/Board.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/RGB_Change.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/multi_robot_datatype.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/joystick_motor_new.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/joystick_motor_old.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/PWMServoControl.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/ServoCmd.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/joystick_pi.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/joystick.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/__init__.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control
+byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/Board.py to Board.cpython-38.pyc
+byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/RGB_Change.py to RGB_Change.cpython-38.pyc
+byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/multi_robot_datatype.py to multi_robot_datatype.cpython-38.pyc
+byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/joystick_motor_new.py to joystick_motor_new.cpython-38.pyc
+byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/joystick_motor_old.py to joystick_motor_old.cpython-38.pyc
+byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/PWMServoControl.py to PWMServoControl.cpython-38.pyc
+byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/ServoCmd.py to ServoCmd.cpython-38.pyc
+byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/joystick_pi.py to joystick_pi.cpython-38.pyc
+byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/joystick.py to joystick.cpython-38.pyc
+byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ubuntu/pangolin_ws/install/pangolin_control/share/ament_index
+creating /home/ubuntu/pangolin_ws/install/pangolin_control/share/ament_index/resource_index
+creating /home/ubuntu/pangolin_ws/install/pangolin_control/share/ament_index/resource_index/packages
+copying resource/pangolin_control -> /home/ubuntu/pangolin_ws/install/pangolin_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control
+running install_egg_info
+Copying ../../build/pangolin_control/pangolin_control.egg-info to /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control-0.0.0-py3.8.egg-info
+running install_scripts
+Installing pangolin_start script to /home/ubuntu/pangolin_ws/install/pangolin_control/lib/pangolin_control
+writing list of installed files to '/home/ubuntu/pangolin_ws/build/pangolin_control/install.log'

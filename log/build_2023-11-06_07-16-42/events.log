@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.001026] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.001357] (pangolin_control) JobQueued: {'identifier': 'pangolin_control', 'dependencies': OrderedDict()}
+[0.002046] (pangolin_control) JobStarted: {'identifier': 'pangolin_control'}
+[0.100957] (-) TimerEvent: {}
+[0.201804] (-) TimerEvent: {}
+[0.303810] (-) TimerEvent: {}
+[0.404567] (-) TimerEvent: {}
+[0.505942] (-) TimerEvent: {}
+[0.607213] (-) TimerEvent: {}
+[0.708614] (-) TimerEvent: {}
+[0.810341] (-) TimerEvent: {}
+[0.911554] (-) TimerEvent: {}
+[1.012279] (-) TimerEvent: {}
+[1.113109] (-) TimerEvent: {}
+[1.213805] (-) TimerEvent: {}
+[1.314554] (-) TimerEvent: {}
+[1.415220] (-) TimerEvent: {}
+[1.515869] (-) TimerEvent: {}
+[1.616808] (-) TimerEvent: {}
+[1.717809] (-) TimerEvent: {}
+[1.819037] (-) TimerEvent: {}
+[1.922698] (-) TimerEvent: {}
+[2.024632] (-) TimerEvent: {}
+[2.126661] (-) TimerEvent: {}
+[2.228828] (-) TimerEvent: {}
+[2.330425] (-) TimerEvent: {}
+[2.431344] (-) TimerEvent: {}
+[2.532165] (-) TimerEvent: {}
+[2.632814] (-) TimerEvent: {}
+[2.733477] (-) TimerEvent: {}
+[2.834181] (-) TimerEvent: {}
+[2.934852] (-) TimerEvent: {}
+[3.035711] (-) TimerEvent: {}
+[3.136808] (-) TimerEvent: {}
+[3.237499] (-) TimerEvent: {}
+[3.338225] (-) TimerEvent: {}
+[3.438955] (-) TimerEvent: {}
+[3.538386] (pangolin_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pangolin_control', 'build', '--build-base', '/home/ubuntu/pangolin_ws/build/pangolin_control/build', 'install', '--record', '/home/ubuntu/pangolin_ws/build/pangolin_control/install.log', '--install-scripts', '$base/lib/pangolin_control', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/pangolin_ws/src/pangolin_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.100.3.84 39056 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/pangolin_ws/src', 'TERM_PROGRAM_VERSION': '1.84.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-a067d1f6-2413-4da4-9ca8-d5f571928330.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install:/home/ubuntu/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/d037ac076cee195194f93ce6fe2bdfe2969cc82d/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dad4036cfe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install/py_pubsub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pangolin_ws/build/pangolin_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.100.3.84 39056 10.100.3.134 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1'}, 'shell': False}
+[3.543131] (-) TimerEvent: {}
+[3.644326] (-) TimerEvent: {}
+[3.745286] (-) TimerEvent: {}
+[3.845975] (-) TimerEvent: {}
+[3.946679] (-) TimerEvent: {}
+[4.047339] (-) TimerEvent: {}
+[4.148001] (-) TimerEvent: {}
+[4.248696] (-) TimerEvent: {}
+[4.301134] (pangolin_control) StdoutLine: {'line': b'running egg_info\n'}
+[4.303157] (pangolin_control) StdoutLine: {'line': b'creating ../../build/pangolin_control/pangolin_control.egg-info\n'}
+[4.303820] (pangolin_control) StdoutLine: {'line': b'writing ../../build/pangolin_control/pangolin_control.egg-info/PKG-INFO\n'}
+[4.304821] (pangolin_control) StdoutLine: {'line': b'writing dependency_links to ../../build/pangolin_control/pangolin_control.egg-info/dependency_links.txt\n'}
+[4.305436] (pangolin_control) StdoutLine: {'line': b'writing entry points to ../../build/pangolin_control/pangolin_control.egg-info/entry_points.txt\n'}
+[4.305976] (pangolin_control) StdoutLine: {'line': b'writing requirements to ../../build/pangolin_control/pangolin_control.egg-info/requires.txt\n'}
+[4.306551] (pangolin_control) StdoutLine: {'line': b'writing top-level names to ../../build/pangolin_control/pangolin_control.egg-info/top_level.txt\n'}
+[4.314804] (pangolin_control) StdoutLine: {'line': b"writing manifest file '../../build/pangolin_control/pangolin_control.egg-info/SOURCES.txt'\n"}
+[4.348841] (-) TimerEvent: {}
+[4.436078] (pangolin_control) StdoutLine: {'line': b"reading manifest file '../../build/pangolin_control/pangolin_control.egg-info/SOURCES.txt'\n"}
+[4.439285] (pangolin_control) StdoutLine: {'line': b"writing manifest file '../../build/pangolin_control/pangolin_control.egg-info/SOURCES.txt'\n"}
+[4.439915] (pangolin_control) StdoutLine: {'line': b'running build\n'}
+[4.440387] (pangolin_control) StdoutLine: {'line': b'running build_py\n'}
+[4.440955] (pangolin_control) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/build/pangolin_control/build\n'}
+[4.441552] (pangolin_control) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib\n'}
+[4.442023] (pangolin_control) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.442563] (pangolin_control) StdoutLine: {'line': b'copying pangolin_control/Board.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.442994] (pangolin_control) StdoutLine: {'line': b'copying pangolin_control/RGB_Change.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.443470] (pangolin_control) StdoutLine: {'line': b'copying pangolin_control/multi_robot_datatype.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.443923] (pangolin_control) StdoutLine: {'line': b'copying pangolin_control/joystick_motor_new.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.444396] (pangolin_control) StdoutLine: {'line': b'copying pangolin_control/joystick_motor_old.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.445056] (pangolin_control) StdoutLine: {'line': b'copying pangolin_control/PWMServoControl.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.445707] (pangolin_control) StdoutLine: {'line': b'copying pangolin_control/ServoCmd.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.446375] (pangolin_control) StdoutLine: {'line': b'copying pangolin_control/joystick_pi.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.447034] (pangolin_control) StdoutLine: {'line': b'copying pangolin_control/joystick.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.447659] (pangolin_control) StdoutLine: {'line': b'copying pangolin_control/__init__.py -> /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control\n'}
+[4.448829] (pangolin_control) StdoutLine: {'line': b'running install\n'}
+[4.449292] (-) TimerEvent: {}
+[4.451858] (pangolin_control) StdoutLine: {'line': b'running install_lib\n'}
+[4.455744] (pangolin_control) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.456524] (pangolin_control) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/Board.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.457236] (pangolin_control) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/RGB_Change.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.457851] (pangolin_control) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/multi_robot_datatype.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.458748] (pangolin_control) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/joystick_motor_new.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.459388] (pangolin_control) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/joystick_motor_old.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.460055] (pangolin_control) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/PWMServoControl.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.460699] (pangolin_control) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/ServoCmd.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.461368] (pangolin_control) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/joystick_pi.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.462051] (pangolin_control) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/joystick.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.462743] (pangolin_control) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/pangolin_control/build/lib/pangolin_control/__init__.py -> /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control\n'}
+[4.464908] (pangolin_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/Board.py to Board.cpython-38.pyc\n'}
+[4.473230] (pangolin_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/RGB_Change.py to RGB_Change.cpython-38.pyc\n'}
+[4.475098] (pangolin_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/multi_robot_datatype.py to multi_robot_datatype.cpython-38.pyc\n'}
+[4.478053] (pangolin_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/joystick_motor_new.py to joystick_motor_new.cpython-38.pyc\n'}
+[4.481983] (pangolin_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/joystick_motor_old.py to joystick_motor_old.cpython-38.pyc\n'}
+[4.485260] (pangolin_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/PWMServoControl.py to PWMServoControl.cpython-38.pyc\n'}
+[4.489500] (pangolin_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/ServoCmd.py to ServoCmd.cpython-38.pyc\n'}
+[4.494284] (pangolin_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/joystick_pi.py to joystick_pi.cpython-38.pyc\n'}
+[4.497357] (pangolin_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/joystick.py to joystick.cpython-38.pyc\n'}
+[4.500780] (pangolin_control) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control/__init__.py to __init__.cpython-38.pyc\n'}
+[4.501622] (pangolin_control) StdoutLine: {'line': b'running install_data\n'}
+[4.503441] (pangolin_control) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/pangolin_control/share/ament_index\n'}
+[4.504142] (pangolin_control) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/pangolin_control/share/ament_index/resource_index\n'}
+[4.504552] (pangolin_control) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/pangolin_control/share/ament_index/resource_index/packages\n'}
+[4.505030] (pangolin_control) StdoutLine: {'line': b'copying resource/pangolin_control -> /home/ubuntu/pangolin_ws/install/pangolin_control/share/ament_index/resource_index/packages\n'}
+[4.505499] (pangolin_control) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control\n'}
+[4.505866] (pangolin_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.510776] (pangolin_control) StdoutLine: {'line': b'Copying ../../build/pangolin_control/pangolin_control.egg-info to /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin_control-0.0.0-py3.8.egg-info\n'}
+[4.515195] (pangolin_control) StdoutLine: {'line': b'running install_scripts\n'}
+[4.549601] (-) TimerEvent: {}
+[4.579203] (pangolin_control) StdoutLine: {'line': b'Installing pangolin_start script to /home/ubuntu/pangolin_ws/install/pangolin_control/lib/pangolin_control\n'}
+[4.581885] (pangolin_control) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/pangolin_ws/build/pangolin_control/install.log'\n"}
+[4.649857] (-) TimerEvent: {}
+[4.674439] (pangolin_control) CommandEnded: {'returncode': 0}
+[4.750152] (-) TimerEvent: {}
+[4.853990] (-) TimerEvent: {}
+[4.955247] (-) TimerEvent: {}
+[5.056252] (-) TimerEvent: {}
+[5.092893] (pangolin_control) JobEnded: {'identifier': 'pangolin_control', 'rc': 0}
+[5.097627] (-) EventReactorShutdown: {}

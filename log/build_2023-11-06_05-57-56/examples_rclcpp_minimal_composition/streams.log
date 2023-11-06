@@ -1,0 +1,18 @@
+[0.506s] Invoking command in '/home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pangolin_ws/build/examples_rclcpp_minimal_composition -- -j4 -l4
+[0.784s] [35m[1mScanning dependencies of target composition_nodes[0m
+[1.240s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[1.250s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[20.592s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[21.767s] [ 33%] Built target composition_nodes
+[21.808s] [35m[1mScanning dependencies of target composition_composed[0m
+[21.812s] [35m[1mScanning dependencies of target composition_subscriber[0m
+[21.817s] [35m[1mScanning dependencies of target composition_publisher[0m
+[22.004s] [ 55%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[22.005s] [ 55%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[22.006s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[30.365s] [ 77%] [32m[1mLinking CXX executable composition_publisher[0m
+[30.444s] [ 88%] [32m[1mLinking CXX executable composition_subscriber[0m
+[31.121s] [100%] [32m[1mLinking CXX executable composition_composed[0m
+[31.419s] [100%] Built target composition_publisher
+[31.508s] [100%] Built target composition_subscriber
+[31.938s] [100%] Built target composition_composed
