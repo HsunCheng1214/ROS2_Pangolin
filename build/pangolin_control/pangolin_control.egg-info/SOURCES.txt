@@ -10,7 +10,6 @@ setup.py
 ../../build/pangolin_control/pangolin_control.egg-info/zip-safe
 pangolin_control/__init__.py
 pangolin_control/joystick_motor_new.py
-pangolin_control/joystick_motor_old.py
 pangolin_control.egg-info/PKG-INFO
 pangolin_control.egg-info/SOURCES.txt
 pangolin_control.egg-info/dependency_links.txt

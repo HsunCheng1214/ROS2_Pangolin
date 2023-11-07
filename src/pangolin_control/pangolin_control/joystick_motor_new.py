@@ -15,8 +15,9 @@ from time import sleep
 from Board import setPWMServoPulse
 from queue import Queue
 from os import geteuid
+from ServoCmd import Servo
 
-
+servo_control = Servo()
 
 button_pin = 33 #gpio mode: board
 GPIO.setup(button_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
@@ -54,25 +55,25 @@ def control_thread(q):
                     #start
                     if joystick_queue["PSB_CIRCLE"] == 1 and pSB_CIRCLE_state == 0:
                         if isSit == False:
-                            ServoCmd.sitDown()
+                            servo_control.sit_down()
                             isSit = True
                         else:
-                            ServoCmd.standUp()
+                            servo_control.stand_up()
                             isSit = False
 
                     if pSB_CIRCLE_state == 0 and isSit == True:
-                        ServoCmd.sit_act(joystick_queue["PSB_Left_Vertical_Axis"], joystick_queue["PSB_Right_Vertical_Axis"])
+                        servo_control.sit_act(joystick_queue["PSB_Left_Vertical_Axis"], joystick_queue["PSB_Right_Vertical_Axis"])
                     
                     elif pSB_CIRCLE_state == 0 and isSit == False:                
                         if joystick_queue["PSB_Left_Vertical_Axis"] >= 0.01 and abs(joystick_queue["PSB_Right_Horizontal_Axis"]) >= 0.01:
-                            ServoCmd.move_joystick(0.4, joystick_queue["PSB_Right_Horizontal_Axis"])  
+                            servo_control.move_joystick(0.4, joystick_queue["PSB_Right_Horizontal_Axis"])  
                             
                         elif joystick_queue["PSB_Left_Vertical_Axis"] <= -0.01 and abs(joystick_queue["PSB_Right_Horizontal_Axis"]) >= 0.01:
-                            ServoCmd.move_joystick(-0.4, joystick_queue["PSB_Right_Horizontal_Axis"])    
+                            servo_control.move_joystick(-0.4, joystick_queue["PSB_Right_Horizontal_Axis"])    
                 
                         elif abs(joystick_queue["PSB_Left_Vertical_Axis"]) >= 0.01 or abs(joystick_queue["PSB_Right_Horizontal_Axis"]) >= 0.01:
-                            ServoCmd.default()
-                            ServoCmd.move_joystick(joystick_queue["PSB_Left_Vertical_Axis"], joystick_queue["PSB_Right_Horizontal_Axis"])
+                            servo_control.initial_position()
+                            servo_control.move_joystick(joystick_queue["PSB_Left_Vertical_Axis"], joystick_queue["PSB_Right_Horizontal_Axis"])
 
         
                     pSB_CIRCLE_state = joystick_queue["PSB_CIRCLE"]
