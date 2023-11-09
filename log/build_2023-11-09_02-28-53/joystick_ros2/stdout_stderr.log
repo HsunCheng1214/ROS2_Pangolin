@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing joystick_ros2.egg-info/PKG-INFO
+writing dependency_links to joystick_ros2.egg-info/dependency_links.txt
+writing entry points to joystick_ros2.egg-info/entry_points.txt
+writing requirements to joystick_ros2.egg-info/requires.txt
+writing top-level names to joystick_ros2.egg-info/top_level.txt
+reading manifest file 'joystick_ros2.egg-info/SOURCES.txt'
+writing manifest file 'joystick_ros2.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages/joystick-ros2.egg-link (link to .)
+Installing joystick_start script to /home/ubuntu/pangolin_ws/install/joystick_ros2/lib/joystick_ros2
+
+Installed /home/ubuntu/pangolin_ws/build/joystick_ros2
+running install_data

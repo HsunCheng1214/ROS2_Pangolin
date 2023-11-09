@@ -1,0 +1,193 @@
+[0.000000] (-) TimerEvent: {}
+[0.001048] (joystick_ros2) JobQueued: {'identifier': 'joystick_ros2', 'dependencies': OrderedDict()}
+[0.001407] (pangolin_control) JobQueued: {'identifier': 'pangolin_control', 'dependencies': OrderedDict()}
+[0.002216] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002820] (joystick_ros2) JobStarted: {'identifier': 'joystick_ros2'}
+[0.099158] (-) TimerEvent: {}
+[0.199830] (-) TimerEvent: {}
+[0.300481] (-) TimerEvent: {}
+[0.402098] (-) TimerEvent: {}
+[0.503594] (-) TimerEvent: {}
+[0.606042] (-) TimerEvent: {}
+[0.708139] (-) TimerEvent: {}
+[0.796790] (pangolin_control) JobStarted: {'identifier': 'pangolin_control'}
+[0.808333] (-) TimerEvent: {}
+[0.909487] (-) TimerEvent: {}
+[1.011299] (-) TimerEvent: {}
+[1.113802] (-) TimerEvent: {}
+[1.215252] (-) TimerEvent: {}
+[1.315911] (-) TimerEvent: {}
+[1.417373] (-) TimerEvent: {}
+[1.518791] (-) TimerEvent: {}
+[1.603459] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[1.619698] (-) TimerEvent: {}
+[1.720707] (-) TimerEvent: {}
+[1.822274] (-) TimerEvent: {}
+[1.923933] (-) TimerEvent: {}
+[2.025195] (-) TimerEvent: {}
+[2.126638] (-) TimerEvent: {}
+[2.227721] (-) TimerEvent: {}
+[2.329586] (-) TimerEvent: {}
+[2.431734] (-) TimerEvent: {}
+[2.532758] (-) TimerEvent: {}
+[2.633690] (-) TimerEvent: {}
+[2.734474] (-) TimerEvent: {}
+[2.835249] (-) TimerEvent: {}
+[2.935958] (-) TimerEvent: {}
+[3.036651] (-) TimerEvent: {}
+[3.137359] (-) TimerEvent: {}
+[3.238190] (-) TimerEvent: {}
+[3.339445] (-) TimerEvent: {}
+[3.440426] (-) TimerEvent: {}
+[3.541636] (-) TimerEvent: {}
+[3.643090] (-) TimerEvent: {}
+[3.744284] (-) TimerEvent: {}
+[3.845902] (-) TimerEvent: {}
+[3.948653] (-) TimerEvent: {}
+[4.049551] (-) TimerEvent: {}
+[4.150312] (-) TimerEvent: {}
+[4.251100] (-) TimerEvent: {}
+[4.351813] (-) TimerEvent: {}
+[4.452546] (-) TimerEvent: {}
+[4.553265] (-) TimerEvent: {}
+[4.653989] (-) TimerEvent: {}
+[4.754779] (-) TimerEvent: {}
+[4.856114] (-) TimerEvent: {}
+[4.957331] (-) TimerEvent: {}
+[5.059621] (-) TimerEvent: {}
+[5.160720] (-) TimerEvent: {}
+[5.262453] (-) TimerEvent: {}
+[5.364729] (-) TimerEvent: {}
+[5.465993] (-) TimerEvent: {}
+[5.566998] (-) TimerEvent: {}
+[5.667750] (-) TimerEvent: {}
+[5.768474] (-) TimerEvent: {}
+[5.869195] (-) TimerEvent: {}
+[5.969925] (-) TimerEvent: {}
+[6.070663] (-) TimerEvent: {}
+[6.171503] (-) TimerEvent: {}
+[6.272349] (-) TimerEvent: {}
+[6.373613] (-) TimerEvent: {}
+[6.475241] (-) TimerEvent: {}
+[6.577369] (-) TimerEvent: {}
+[6.678733] (-) TimerEvent: {}
+[6.780305] (-) TimerEvent: {}
+[6.911438] (-) TimerEvent: {}
+[7.014086] (-) TimerEvent: {}
+[7.115190] (-) TimerEvent: {}
+[7.216426] (-) TimerEvent: {}
+[7.317805] (-) TimerEvent: {}
+[7.419264] (-) TimerEvent: {}
+[7.521790] (-) TimerEvent: {}
+[7.625584] (-) TimerEvent: {}
+[7.728050] (-) TimerEvent: {}
+[7.830669] (-) TimerEvent: {}
+[7.932164] (-) TimerEvent: {}
+[8.034965] (-) TimerEvent: {}
+[8.137664] (-) TimerEvent: {}
+[8.238484] (-) TimerEvent: {}
+[8.340615] (-) TimerEvent: {}
+[8.443278] (-) TimerEvent: {}
+[8.545969] (-) TimerEvent: {}
+[8.649087] (-) TimerEvent: {}
+[8.755674] (-) TimerEvent: {}
+[8.863956] (-) TimerEvent: {}
+[8.967614] (-) TimerEvent: {}
+[9.001629] (joystick_ros2) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/pangolin_ws/build/joystick_ros2/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/pangolin_ws/build/joystick_ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.100.3.84 42402 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/pangolin_ws/src', 'TERM_PROGRAM_VERSION': '1.84.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-28366ad0-9c51-4ab0-9476-072733e4e7ea.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install:/home/ubuntu/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dad4036cfe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/home/ubuntu/pangolin_ws/install/joystick_ros2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pangolin_ws/build/joystick_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.100.3.84 42402 10.100.3.134 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pangolin_ws/build/joystick_ros2/prefix_override:/home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/py_pubsub:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/pangolin_control:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/joystick_ros2:/home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1'}, 'shell': False}
+[9.029474] (pangolin_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/pangolin_ws/build/pangolin_control/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/pangolin_ws/build/pangolin_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.100.3.84 42402 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/pangolin_ws/src', 'TERM_PROGRAM_VERSION': '1.84.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-28366ad0-9c51-4ab0-9476-072733e4e7ea.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install:/home/ubuntu/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dad4036cfe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/home/ubuntu/pangolin_ws/install/joystick_ros2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pangolin_ws/build/pangolin_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.100.3.84 42402 10.100.3.134 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/py_pubsub:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/pangolin_control:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/joystick_ros2:/home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1'}, 'shell': False}
+[9.050365] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/pangolin_ws/build/py_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/pangolin_ws/build/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.100.3.84 42402 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/pangolin_ws/src', 'TERM_PROGRAM_VERSION': '1.84.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-28366ad0-9c51-4ab0-9476-072733e4e7ea.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install:/home/ubuntu/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dad4036cfe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/home/ubuntu/pangolin_ws/install/joystick_ros2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pangolin_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.100.3.84 42402 10.100.3.134 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pangolin_ws/build/py_pubsub/prefix_override:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/py_pubsub:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/pangolin_control:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/joystick_ros2:/home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1'}, 'shell': False}
+[9.068476] (-) TimerEvent: {}
+[9.169478] (-) TimerEvent: {}
+[9.275171] (-) TimerEvent: {}
+[9.377412] (-) TimerEvent: {}
+[9.480865] (-) TimerEvent: {}
+[9.583522] (-) TimerEvent: {}
+[9.685761] (-) TimerEvent: {}
+[9.787797] (-) TimerEvent: {}
+[9.888933] (-) TimerEvent: {}
+[9.990545] (-) TimerEvent: {}
+[10.094249] (-) TimerEvent: {}
+[10.196653] (-) TimerEvent: {}
+[10.207608] (joystick_ros2) StdoutLine: {'line': b'running develop\n'}
+[10.235034] (pangolin_control) StdoutLine: {'line': b'running develop\n'}
+[10.237967] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[10.297943] (-) TimerEvent: {}
+[10.400158] (-) TimerEvent: {}
+[10.502747] (-) TimerEvent: {}
+[10.604156] (-) TimerEvent: {}
+[10.705573] (-) TimerEvent: {}
+[10.806420] (-) TimerEvent: {}
+[10.898020] (joystick_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[10.900700] (joystick_ros2) StdoutLine: {'line': b'writing joystick_ros2.egg-info/PKG-INFO\n'}
+[10.903503] (joystick_ros2) StdoutLine: {'line': b'writing dependency_links to joystick_ros2.egg-info/dependency_links.txt\n'}
+[10.904204] (joystick_ros2) StdoutLine: {'line': b'writing entry points to joystick_ros2.egg-info/entry_points.txt\n'}
+[10.904727] (joystick_ros2) StdoutLine: {'line': b'writing requirements to joystick_ros2.egg-info/requires.txt\n'}
+[10.905302] (joystick_ros2) StdoutLine: {'line': b'writing top-level names to joystick_ros2.egg-info/top_level.txt\n'}
+[10.907050] (-) TimerEvent: {}
+[10.924749] (pangolin_control) StdoutLine: {'line': b'running egg_info\n'}
+[10.925775] (pangolin_control) StdoutLine: {'line': b'writing pangolin_control.egg-info/PKG-INFO\n'}
+[10.926819] (pangolin_control) StdoutLine: {'line': b'writing dependency_links to pangolin_control.egg-info/dependency_links.txt\n'}
+[10.928954] (pangolin_control) StdoutLine: {'line': b'writing entry points to pangolin_control.egg-info/entry_points.txt\n'}
+[10.931381] (pangolin_control) StdoutLine: {'line': b'writing requirements to pangolin_control.egg-info/requires.txt\n'}
+[10.934448] (pangolin_control) StdoutLine: {'line': b'writing top-level names to pangolin_control.egg-info/top_level.txt\n'}
+[10.937883] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[10.938504] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[10.949958] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[10.950668] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[10.952960] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[10.953661] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[11.007321] (-) TimerEvent: {}
+[11.055842] (joystick_ros2) StdoutLine: {'line': b"reading manifest file 'joystick_ros2.egg-info/SOURCES.txt'\n"}
+[11.060820] (joystick_ros2) StdoutLine: {'line': b"writing manifest file 'joystick_ros2.egg-info/SOURCES.txt'\n"}
+[11.070320] (joystick_ros2) StdoutLine: {'line': b'running build_ext\n'}
+[11.074775] (joystick_ros2) StdoutLine: {'line': b'Creating /home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages/joystick-ros2.egg-link (link to .)\n'}
+[11.081590] (pangolin_control) StdoutLine: {'line': b"reading manifest file 'pangolin_control.egg-info/SOURCES.txt'\n"}
+[11.084091] (joystick_ros2) StdoutLine: {'line': b'Installing joystick_ros2 script to /home/ubuntu/pangolin_ws/install/joystick_ros2/lib/joystick_ros2\n'}
+[11.088194] (pangolin_control) StdoutLine: {'line': b"writing manifest file 'pangolin_control.egg-info/SOURCES.txt'\n"}
+[11.090180] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[11.091073] (joystick_ros2) StdoutLine: {'line': b'\n'}
+[11.092703] (joystick_ros2) StdoutLine: {'line': b'Installed /home/ubuntu/pangolin_ws/build/joystick_ros2\n'}
+[11.094694] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[11.095515] (joystick_ros2) StdoutLine: {'line': b'running install_data\n'}
+[11.097998] (joystick_ros2) StdoutLine: {'line': b'copying resource/joystick_ros2 -> /home/ubuntu/pangolin_ws/install/joystick_ros2/share/ament_index/resource_index/packages\n'}
+[11.099659] (pangolin_control) StdoutLine: {'line': b'running build_ext\n'}
+[11.100630] (joystick_ros2) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/pangolin_ws/install/joystick_ros2/shared/joystick_ros2\n'}
+[11.103236] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[11.104907] (pangolin_control) StdoutLine: {'line': b'Creating /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin-control.egg-link (link to .)\n'}
+[11.105934] (py_pubsub) StdoutLine: {'line': b'Creating /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)\n'}
+[11.107570] (-) TimerEvent: {}
+[11.112125] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/py_pubsub\n'}
+[11.115135] (pangolin_control) StdoutLine: {'line': b'Installing pangolin_start script to /home/ubuntu/pangolin_ws/install/pangolin_control/lib/pangolin_control\n'}
+[11.116040] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/py_pubsub\n'}
+[11.117704] (py_pubsub) StdoutLine: {'line': b'\n'}
+[11.118464] (py_pubsub) StdoutLine: {'line': b'Installed /home/ubuntu/pangolin_ws/build/py_pubsub\n'}
+[11.119347] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[11.123317] (pangolin_control) StdoutLine: {'line': b'\n'}
+[11.125276] (pangolin_control) StdoutLine: {'line': b'Installed /home/ubuntu/pangolin_ws/build/pangolin_control\n'}
+[11.128777] (pangolin_control) StdoutLine: {'line': b'running install_data\n'}
+[11.208102] (-) TimerEvent: {}
+[11.313664] (-) TimerEvent: {}
+[11.344783] (py_pubsub) CommandEnded: {'returncode': 0}
+[11.413975] (-) TimerEvent: {}
+[11.516379] (-) TimerEvent: {}
+[11.618443] (-) TimerEvent: {}
+[11.720281] (-) TimerEvent: {}
+[11.822408] (-) TimerEvent: {}
+[11.924160] (-) TimerEvent: {}
+[11.946670] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[11.951880] (joystick_ros2) CommandEnded: {'returncode': 0}
+[12.026096] (-) TimerEvent: {}
+[12.128191] (-) TimerEvent: {}
+[12.228819] (-) TimerEvent: {}
+[12.332078] (-) TimerEvent: {}
+[12.433675] (-) TimerEvent: {}
+[12.502612] (joystick_ros2) JobEnded: {'identifier': 'joystick_ros2', 'rc': 0}
+[12.504812] (pangolin_control) CommandEnded: {'returncode': 0}
+[12.534296] (-) TimerEvent: {}
+[12.634985] (-) TimerEvent: {}
+[12.736329] (-) TimerEvent: {}
+[12.837409] (-) TimerEvent: {}
+[12.939447] (-) TimerEvent: {}
+[13.036896] (pangolin_control) JobEnded: {'identifier': 'pangolin_control', 'rc': 0}
+[13.040553] (-) TimerEvent: {}
+[13.040906] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+[8.780s] Invoking command in '/home/ubuntu/pangolin_ws/build/joystick_ros2': PYTHONPATH=/home/ubuntu/pangolin_ws/build/joystick_ros2/prefix_override:/home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/joystick_ros2/build --no-deps install_data
+[9.992s] running develop
+[10.684s] running egg_info
+[10.689s] writing joystick_ros2.egg-info/PKG-INFO
+[10.689s] writing dependency_links to joystick_ros2.egg-info/dependency_links.txt
+[10.690s] writing entry points to joystick_ros2.egg-info/entry_points.txt
+[10.694s] writing requirements to joystick_ros2.egg-info/requires.txt
+[10.695s] writing top-level names to joystick_ros2.egg-info/top_level.txt
+[10.831s] reading manifest file 'joystick_ros2.egg-info/SOURCES.txt'
+[10.835s] writing manifest file 'joystick_ros2.egg-info/SOURCES.txt'
+[10.843s] running build_ext
+[10.844s] Creating /home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages/joystick-ros2.egg-link (link to .)
+[10.848s] Installing joystick_start script to /home/ubuntu/pangolin_ws/install/joystick_ros2/lib/joystick_ros2
+[10.850s] 
+[10.851s] Installed /home/ubuntu/pangolin_ws/build/joystick_ros2
+[10.852s] running install_data
+[11.057s] Invoked command in '/home/ubuntu/pangolin_ws/build/joystick_ros2' returned '0': PYTHONPATH=/home/ubuntu/pangolin_ws/build/joystick_ros2/prefix_override:/home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/joystick_ros2/build --no-deps install_data

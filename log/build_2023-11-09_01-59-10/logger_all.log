@@ -1,0 +1,243 @@
+[7.302s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[7.302s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffab4529a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffab4529a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffab00eaf0>)
+[7.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.701s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.701s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/pangolin_ws'
+[7.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.703s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.771s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.773s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.773s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.773s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.774s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.774s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.774s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.775s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.776s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.777s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['ignore', 'ignore_ament_install']
+[7.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ignore'
+[7.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ignore_ament_install'
+[7.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['colcon_pkg']
+[7.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'colcon_pkg'
+[7.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['colcon_meta']
+[7.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'colcon_meta'
+[7.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['ros']
+[7.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ros'
+[7.790s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_ros2' with type 'ros.ament_python' and name 'joystick_ros2'
+[7.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extensions ['ignore', 'ignore_ament_install']
+[7.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extension 'ignore'
+[7.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extension 'ignore_ament_install'
+[7.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extensions ['colcon_pkg']
+[7.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extension 'colcon_pkg'
+[7.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extensions ['colcon_meta']
+[7.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extension 'colcon_meta'
+[7.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extensions ['ros']
+[7.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extension 'ros'
+[7.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pangolin_control' with type 'ros.ament_python' and name 'pangolin_control'
+[7.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[7.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[7.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[7.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[7.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[7.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[7.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[7.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[7.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[7.800s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[7.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.477s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.478s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[8.724s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ubuntu/pangolin_ws/install
+[8.843s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ubuntu/install
+[8.966s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 174 installed packages in /opt/ros/foxy
+[8.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.425s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_args' from command line to 'None'
+[9.426s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_target' from command line to 'None'
+[9.426s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.426s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[9.426s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[9.426s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[9.426s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[9.426s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[9.427s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.427s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pangolin_ws/build/joystick_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pangolin_ws/install/joystick_ros2', 'merge_install': False, 'path': '/home/ubuntu/pangolin_ws/src/joystick_ros2', 'symlink_install': True, 'test_result_base': None}
+[9.583s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_args' from command line to 'None'
+[9.584s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_target' from command line to 'None'
+[9.584s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.584s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_clean_cache' from command line to 'False'
+[9.584s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_clean_first' from command line to 'False'
+[9.584s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_force_configure' from command line to 'False'
+[9.584s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'ament_cmake_args' from command line to 'None'
+[9.584s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'catkin_cmake_args' from command line to 'None'
+[9.584s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.584s] DEBUG:colcon.colcon_core.verb:Building package 'pangolin_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pangolin_ws/build/pangolin_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pangolin_ws/install/pangolin_control', 'merge_install': False, 'path': '/home/ubuntu/pangolin_ws/src/pangolin_control', 'symlink_install': True, 'test_result_base': None}
+[9.702s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[9.703s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[9.703s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.703s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[9.703s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[9.703s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[9.703s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[9.703s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[9.704s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.704s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pangolin_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pangolin_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/ubuntu/pangolin_ws/src/py_pubsub', 'symlink_install': True, 'test_result_base': None}
+[9.819s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[9.940s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[9.942s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/pangolin_ws/src/joystick_ros2' with build type 'ament_python'
+[9.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_ros2', 'ament_prefix_path')
+[10.080s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[10.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/hook/ament_prefix_path.ps1'
+[10.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/hook/ament_prefix_path.dsv'
+[10.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/hook/ament_prefix_path.sh'
+[10.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.214s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.736s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/pangolin_ws/src/pangolin_control' with build type 'ament_python'
+[10.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_control', 'ament_prefix_path')
+[10.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/ament_prefix_path.ps1'
+[10.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/ament_prefix_path.dsv'
+[10.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/ament_prefix_path.sh'
+[11.023s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.023s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.542s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/pangolin_ws/src/py_pubsub' with build type 'ament_python'
+[11.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[11.678s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[11.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[11.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[11.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.201s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'joystick_ros2' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[13.202s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/pangolin_ws/src/joystick_ros2'
+[13.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.697s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/pangolin_ws/src/pangolin_control'
+[14.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.215s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/pangolin_ws/src/py_pubsub'
+[16.346s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pangolin_ws/build/joystick_ros2': PYTHONPATH=/home/ubuntu/pangolin_ws/build/joystick_ros2/prefix_override:/home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/joystick_ros2/build --no-deps install_data
+[18.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_control': PYTHONPATH=/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/pangolin_control/build --no-deps install_data
+[18.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pangolin_ws/build/py_pubsub': PYTHONPATH=/home/ubuntu/pangolin_ws/build/py_pubsub/prefix_override:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/py_pubsub/build --no-deps install_data
+[21.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath_develop')
+[21.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/pangolin_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/ubuntu/pangolin_ws/build/py_pubsub/prefix_override:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/py_pubsub/build --no-deps install_data
+[21.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.ps1'
+[21.414s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.dsv'
+[21.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.sh'
+[21.598s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub' for CMake module files
+[21.601s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub' for CMake config files
+[21.604s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub/lib'
+[21.606s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub/bin'
+[21.606s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[21.607s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages'
+[21.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[21.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[21.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[21.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[21.739s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub/bin'
+[21.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[21.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[21.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[21.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[21.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[21.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[21.885s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/pangolin_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[21.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_ros2', 'pythonpath_develop')
+[21.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/pangolin_ws/build/joystick_ros2' returned '0': PYTHONPATH=/home/ubuntu/pangolin_ws/build/joystick_ros2/prefix_override:/home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/joystick_ros2/build --no-deps install_data
+[22.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/build/joystick_ros2/share/joystick_ros2/hook/pythonpath_develop.ps1'
+[22.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/build/joystick_ros2/share/joystick_ros2/hook/pythonpath_develop.dsv'
+[22.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/build/joystick_ros2/share/joystick_ros2/hook/pythonpath_develop.sh'
+[22.162s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/joystick_ros2' for CMake module files
+[22.164s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/joystick_ros2' for CMake config files
+[22.167s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/joystick_ros2/lib'
+[22.167s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/joystick_ros2/bin'
+[22.168s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/joystick_ros2/lib/pkgconfig/joystick_ros2.pc'
+[22.168s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/joystick_ros2/lib/python3.8/site-packages'
+[22.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_ros2', 'pythonpath')
+[22.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/hook/pythonpath.ps1'
+[22.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/hook/pythonpath.dsv'
+[22.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/hook/pythonpath.sh'
+[22.304s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/joystick_ros2/bin'
+[22.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_ros2)
+[22.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/package.ps1'
+[22.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/package.dsv'
+[22.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/package.sh'
+[22.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/package.bash'
+[22.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/joystick_ros2/share/joystick_ros2/package.zsh'
+[22.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/pangolin_ws/install/joystick_ros2/share/colcon-core/packages/joystick_ros2)
+[22.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_control', 'pythonpath_develop')
+[22.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_control' returned '0': PYTHONPATH=/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/pangolin_control/build --no-deps install_data
+[22.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/build/pangolin_control/share/pangolin_control/hook/pythonpath_develop.ps1'
+[22.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/build/pangolin_control/share/pangolin_control/hook/pythonpath_develop.dsv'
+[22.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/build/pangolin_control/share/pangolin_control/hook/pythonpath_develop.sh'
+[22.705s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control' for CMake module files
+[22.708s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control' for CMake config files
+[22.710s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control/lib'
+[22.711s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control/bin'
+[22.711s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control/lib/pkgconfig/pangolin_control.pc'
+[22.712s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages'
+[22.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_control', 'pythonpath')
+[22.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/pythonpath.ps1'
+[22.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/pythonpath.dsv'
+[22.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/pythonpath.sh'
+[22.841s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control/bin'
+[22.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pangolin_control)
+[22.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/package.ps1'
+[22.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/package.dsv'
+[22.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/package.sh'
+[22.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/package.bash'
+[22.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/package.zsh'
+[22.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/pangolin_ws/install/pangolin_control/share/colcon-core/packages/pangolin_control)
+[22.977s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.978s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.979s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.130s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[23.130s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.130s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.131s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.212s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[23.213s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.346s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pangolin_ws/install/local_setup.ps1'
+[23.351s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/pangolin_ws/install/_local_setup_util_ps1.py'
+[23.367s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pangolin_ws/install/setup.ps1'
+[23.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pangolin_ws/install/local_setup.sh'
+[23.515s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/pangolin_ws/install/_local_setup_util_sh.py'
+[23.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pangolin_ws/install/setup.sh'
+[23.647s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pangolin_ws/install/local_setup.bash'
+[23.661s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pangolin_ws/install/setup.bash'
+[23.795s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pangolin_ws/install/local_setup.zsh'
+[23.808s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pangolin_ws/install/setup.zsh'

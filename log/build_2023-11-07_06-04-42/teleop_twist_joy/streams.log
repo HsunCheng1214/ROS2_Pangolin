@@ -1,0 +1,18 @@
+[5.116s] Invoking command in '/home/ubuntu/pangolin_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/pangolin_ws/src/teleop_twist_joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pangolin_ws/install/teleop_twist_joy
+[5.300s] CMake Error: The source directory "/home/ubuntu/pangolin_ws/src/teleop_twist_joy" does not appear to contain CMakeLists.txt.
+[5.302s] Specify --help for usage, or press the help button on the CMake GUI.
+[5.326s] Invoked command in '/home/ubuntu/pangolin_ws/build/teleop_twist_joy' returned '1': CMAKE_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake /home/ubuntu/pangolin_ws/src/teleop_twist_joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/pangolin_ws/install/teleop_twist_joy
+[5.342s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+TypeError: argument of type 'NoneType' is not iterable

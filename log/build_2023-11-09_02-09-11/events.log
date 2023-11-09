@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.001068] (joystick_ros2) JobQueued: {'identifier': 'joystick_ros2', 'dependencies': OrderedDict()}
+[0.001425] (pangolin_control) JobQueued: {'identifier': 'pangolin_control', 'dependencies': OrderedDict()}
+[0.002231] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002343] (joystick_ros2) JobStarted: {'identifier': 'joystick_ros2'}
+[0.099433] (-) TimerEvent: {}
+[0.201014] (-) TimerEvent: {}
+[0.303113] (-) TimerEvent: {}
+[0.404238] (-) TimerEvent: {}
+[0.505188] (-) TimerEvent: {}
+[0.607391] (-) TimerEvent: {}
+[0.709001] (-) TimerEvent: {}
+[0.783969] (pangolin_control) JobStarted: {'identifier': 'pangolin_control'}
+[0.809208] (-) TimerEvent: {}
+[0.910075] (-) TimerEvent: {}
+[1.012482] (-) TimerEvent: {}
+[1.114013] (-) TimerEvent: {}
+[1.215465] (-) TimerEvent: {}
+[1.317299] (-) TimerEvent: {}
+[1.418826] (-) TimerEvent: {}
+[1.521563] (-) TimerEvent: {}
+[1.587167] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[1.622057] (-) TimerEvent: {}
+[1.723114] (-) TimerEvent: {}
+[1.823868] (-) TimerEvent: {}
+[1.925601] (-) TimerEvent: {}
+[2.026739] (-) TimerEvent: {}
+[2.128695] (-) TimerEvent: {}
+[2.230238] (-) TimerEvent: {}
+[2.331802] (-) TimerEvent: {}
+[2.432679] (-) TimerEvent: {}
+[2.533599] (-) TimerEvent: {}
+[2.634315] (-) TimerEvent: {}
+[2.735019] (-) TimerEvent: {}
+[2.835727] (-) TimerEvent: {}
+[2.936460] (-) TimerEvent: {}
+[3.037201] (-) TimerEvent: {}
+[3.137964] (-) TimerEvent: {}
+[3.238888] (-) TimerEvent: {}
+[3.339645] (-) TimerEvent: {}
+[3.441616] (-) TimerEvent: {}
+[3.543160] (-) TimerEvent: {}
+[3.645451] (-) TimerEvent: {}
+[3.746838] (-) TimerEvent: {}
+[3.848328] (-) TimerEvent: {}
+[3.949891] (-) TimerEvent: {}
+[4.050839] (-) TimerEvent: {}
+[4.151573] (-) TimerEvent: {}
+[4.252368] (-) TimerEvent: {}
+[4.353023] (-) TimerEvent: {}
+[4.453706] (-) TimerEvent: {}
+[4.554457] (-) TimerEvent: {}
+[4.655219] (-) TimerEvent: {}
+[4.756049] (-) TimerEvent: {}
+[4.857258] (-) TimerEvent: {}
+[4.958668] (-) TimerEvent: {}
+[5.060756] (-) TimerEvent: {}
+[5.162305] (-) TimerEvent: {}
+[5.264273] (-) TimerEvent: {}
+[5.365560] (-) TimerEvent: {}
+[5.466741] (-) TimerEvent: {}
+[5.567681] (-) TimerEvent: {}
+[5.668431] (-) TimerEvent: {}
+[5.769130] (-) TimerEvent: {}
+[5.869829] (-) TimerEvent: {}
+[5.970514] (-) TimerEvent: {}
+[6.071265] (-) TimerEvent: {}
+[6.173009] (-) TimerEvent: {}
+[6.275142] (-) TimerEvent: {}
+[6.376866] (-) TimerEvent: {}
+[6.477702] (-) TimerEvent: {}
+[6.579771] (-) TimerEvent: {}
+[6.682108] (-) TimerEvent: {}
+[6.786104] (-) TimerEvent: {}
+[6.888054] (-) TimerEvent: {}
+[6.989883] (-) TimerEvent: {}
+[7.091439] (-) TimerEvent: {}
+[7.193615] (-) TimerEvent: {}
+[7.295285] (-) TimerEvent: {}
+[7.396284] (-) TimerEvent: {}
+[7.497240] (-) TimerEvent: {}
+[7.598615] (-) TimerEvent: {}
+[7.700579] (-) TimerEvent: {}
+[7.803073] (-) TimerEvent: {}
+[7.905677] (-) TimerEvent: {}
+[8.006489] (-) TimerEvent: {}
+[8.108914] (-) TimerEvent: {}
+[8.210169] (-) TimerEvent: {}
+[8.311752] (-) TimerEvent: {}
+[8.413342] (-) TimerEvent: {}
+[8.514897] (-) TimerEvent: {}
+[8.623204] (-) TimerEvent: {}
+[8.708340] (joystick_ros2) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 128, in build\n    temp_symlinks = self._symlinks_in_build(args, setup_py_data)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 287, in _symlinks_in_build\n    raise RuntimeError(\nRuntimeError: Provided py_modules \'joystick_ros2.py\' does not exist\n'}
+[8.716768] (joystick_ros2) JobEnded: {'identifier': 'joystick_ros2', 'rc': 1}
+[8.723468] (-) TimerEvent: {}
+[8.794659] (pangolin_control) JobEnded: {'identifier': 'pangolin_control', 'rc': 'SIGINT'}
+[8.808005] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 'SIGINT'}
+[8.819743] (-) EventReactorShutdown: {}

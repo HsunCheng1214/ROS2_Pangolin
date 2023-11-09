@@ -9,6 +9,7 @@ setup.py
 ../../build/pangolin_control/pangolin_control.egg-info/top_level.txt
 ../../build/pangolin_control/pangolin_control.egg-info/zip-safe
 pangolin_control/__init__.py
+pangolin_control/joystick_motor.py
 pangolin_control/joystick_motor_new.py
 pangolin_control.egg-info/PKG-INFO
 pangolin_control.egg-info/SOURCES.txt

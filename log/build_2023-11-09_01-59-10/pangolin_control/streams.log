@@ -1,0 +1,17 @@
+[8.242s] Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_control': PYTHONPATH=/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/pangolin_control/build --no-deps install_data
+[9.439s] running develop
+[10.128s] running egg_info
+[10.129s] writing pangolin_control.egg-info/PKG-INFO
+[10.130s] writing dependency_links to pangolin_control.egg-info/dependency_links.txt
+[10.132s] writing entry points to pangolin_control.egg-info/entry_points.txt
+[10.136s] writing requirements to pangolin_control.egg-info/requires.txt
+[10.140s] writing top-level names to pangolin_control.egg-info/top_level.txt
+[10.284s] reading manifest file 'pangolin_control.egg-info/SOURCES.txt'
+[10.291s] writing manifest file 'pangolin_control.egg-info/SOURCES.txt'
+[10.302s] running build_ext
+[10.308s] Creating /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin-control.egg-link (link to .)
+[10.318s] Installing pangolin_start script to /home/ubuntu/pangolin_ws/install/pangolin_control/lib/pangolin_control
+[10.327s] 
+[10.329s] Installed /home/ubuntu/pangolin_ws/build/pangolin_control
+[10.333s] running install_data
+[11.708s] Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_control' returned '0': PYTHONPATH=/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/pangolin_control/build --no-deps install_data

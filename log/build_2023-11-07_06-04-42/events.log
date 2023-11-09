@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.001022] (joystick_ros2) JobQueued: {'identifier': 'joystick_ros2', 'dependencies': OrderedDict()}
+[0.001361] (pangolin_control) JobQueued: {'identifier': 'pangolin_control', 'dependencies': OrderedDict()}
+[0.002195] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002803] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.003070] (joystick_ros2) JobStarted: {'identifier': 'joystick_ros2'}
+[0.099338] (-) TimerEvent: {}
+[0.200700] (-) TimerEvent: {}
+[0.301768] (-) TimerEvent: {}
+[0.403618] (-) TimerEvent: {}
+[0.504418] (-) TimerEvent: {}
+[0.605951] (-) TimerEvent: {}
+[0.707680] (-) TimerEvent: {}
+[0.798187] (pangolin_control) JobStarted: {'identifier': 'pangolin_control'}
+[0.807990] (-) TimerEvent: {}
+[0.909156] (-) TimerEvent: {}
+[1.011067] (-) TimerEvent: {}
+[1.114511] (-) TimerEvent: {}
+[1.216001] (-) TimerEvent: {}
+[1.317404] (-) TimerEvent: {}
+[1.418444] (-) TimerEvent: {}
+[1.520110] (-) TimerEvent: {}
+[1.621868] (-) TimerEvent: {}
+[1.625686] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[1.721946] (-) TimerEvent: {}
+[1.822972] (-) TimerEvent: {}
+[1.925257] (-) TimerEvent: {}
+[2.025941] (-) TimerEvent: {}
+[2.126604] (-) TimerEvent: {}
+[2.228439] (-) TimerEvent: {}
+[2.329919] (-) TimerEvent: {}
+[2.418069] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[2.433129] (-) TimerEvent: {}
+[2.534634] (-) TimerEvent: {}
+[2.636524] (-) TimerEvent: {}
+[2.738501] (-) TimerEvent: {}
+[2.840580] (-) TimerEvent: {}
+[2.942102] (-) TimerEvent: {}
+[3.042925] (-) TimerEvent: {}
+[3.144495] (-) TimerEvent: {}
+[3.246020] (-) TimerEvent: {}
+[3.347172] (-) TimerEvent: {}
+[3.447910] (-) TimerEvent: {}
+[3.548597] (-) TimerEvent: {}
+[3.649339] (-) TimerEvent: {}
+[3.750128] (-) TimerEvent: {}
+[3.850974] (-) TimerEvent: {}
+[3.952262] (-) TimerEvent: {}
+[4.053448] (-) TimerEvent: {}
+[4.155627] (-) TimerEvent: {}
+[4.256292] (-) TimerEvent: {}
+[4.358441] (-) TimerEvent: {}
+[4.460558] (-) TimerEvent: {}
+[4.562708] (-) TimerEvent: {}
+[4.663866] (-) TimerEvent: {}
+[4.764598] (-) TimerEvent: {}
+[4.865339] (-) TimerEvent: {}
+[4.966060] (-) TimerEvent: {}
+[5.066773] (-) TimerEvent: {}
+[5.167469] (-) TimerEvent: {}
+[5.268214] (-) TimerEvent: {}
+[5.368952] (-) TimerEvent: {}
+[5.470205] (-) TimerEvent: {}
+[5.573030] (-) TimerEvent: {}
+[5.674437] (-) TimerEvent: {}
+[5.776419] (-) TimerEvent: {}
+[5.877089] (-) TimerEvent: {}
+[5.979065] (-) TimerEvent: {}
+[6.080729] (-) TimerEvent: {}
+[6.181889] (-) TimerEvent: {}
+[6.282645] (-) TimerEvent: {}
+[6.383334] (-) TimerEvent: {}
+[6.484044] (-) TimerEvent: {}
+[6.584758] (-) TimerEvent: {}
+[6.685573] (-) TimerEvent: {}
+[6.786409] (-) TimerEvent: {}
+[6.887399] (-) TimerEvent: {}
+[6.988770] (-) TimerEvent: {}
+[7.090244] (-) TimerEvent: {}
+[7.191218] (-) TimerEvent: {}
+[7.292610] (-) TimerEvent: {}
+[7.419445] (-) TimerEvent: {}
+[7.520933] (-) TimerEvent: {}
+[7.529239] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[7.530764] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/ubuntu/pangolin_ws/src/teleop_twist_joy', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ubuntu/pangolin_ws/install/teleop_twist_joy'], 'cwd': '/home/ubuntu/pangolin_ws/build/teleop_twist_joy', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '10.100.3.84 45996 22'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/pangolin_ws/src'), ('TERM_PROGRAM_VERSION', '1.84.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-cb3665e0-0ffc-4f9b-8902-726036895f59.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/ubuntu/pangolin_ws/install:/home/ubuntu/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dad4036cfe.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pangolin_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.100.3.84 45996 10.100.3.134 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/pangolin_ws/build/py_pubsub:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/build/pangolin_control:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy')]), 'shell': False}
+[7.621063] (-) TimerEvent: {}
+[7.717832] (teleop_twist_joy) StderrLine: {'line': b'CMake Error: The source directory "/home/ubuntu/pangolin_ws/src/teleop_twist_joy" does not appear to contain CMakeLists.txt.\n'}
+[7.720622] (teleop_twist_joy) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\n'}
+[7.721256] (-) TimerEvent: {}
+[7.743696] (teleop_twist_joy) CommandEnded: {'returncode': 1}
+[7.759416] (teleop_twist_joy) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure\n    buildfile = get_buildfile(cmake_cache)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile\n    if \'Visual Studio\' in generator:\nTypeError: argument of type \'NoneType\' is not iterable\n'}
+[7.760620] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 1}
+[7.821455] (-) TimerEvent: {}
+[7.922945] (-) TimerEvent: {}
+[8.025185] (-) TimerEvent: {}
+[8.127303] (-) TimerEvent: {}
+[8.229922] (-) TimerEvent: {}
+[8.331988] (-) TimerEvent: {}
+[8.434383] (-) TimerEvent: {}
+[8.536880] (-) TimerEvent: {}
+[8.638416] (-) TimerEvent: {}
+[8.739742] (-) TimerEvent: {}
+[8.840665] (-) TimerEvent: {}
+[8.941598] (-) TimerEvent: {}
+[9.042538] (-) TimerEvent: {}
+[9.143734] (-) TimerEvent: {}
+[9.249763] (-) TimerEvent: {}
+[9.314191] (joystick_ros2) JobEnded: {'identifier': 'joystick_ros2', 'rc': 'SIGINT'}
+[9.317942] (pangolin_control) JobEnded: {'identifier': 'pangolin_control', 'rc': 'SIGINT'}
+[9.349896] (-) TimerEvent: {}
+[9.402338] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 'SIGINT'}
+[9.414034] (-) EventReactorShutdown: {}
