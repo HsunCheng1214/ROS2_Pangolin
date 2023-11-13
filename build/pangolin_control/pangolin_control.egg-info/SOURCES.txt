@@ -1,13 +1,8 @@
 package.xml
 setup.cfg
 setup.py
-../../build/pangolin_control/pangolin_control.egg-info/PKG-INFO
-../../build/pangolin_control/pangolin_control.egg-info/SOURCES.txt
-../../build/pangolin_control/pangolin_control.egg-info/dependency_links.txt
-../../build/pangolin_control/pangolin_control.egg-info/entry_points.txt
-../../build/pangolin_control/pangolin_control.egg-info/requires.txt
-../../build/pangolin_control/pangolin_control.egg-info/top_level.txt
-../../build/pangolin_control/pangolin_control.egg-info/zip-safe
+config/joyps3.config.yaml
+launch/pangolin_control.launch.py
 pangolin_control/__init__.py
 pangolin_control/joystick_motor.py
 pangolin_control/joystick_motor_new.py
