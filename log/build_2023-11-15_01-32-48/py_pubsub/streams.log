@@ -1,0 +1,18 @@
+[5.553s] Invoking command in '/home/ubuntu/pangolin_ws/build/py_pubsub': PYTHONPATH=/home/ubuntu/pangolin_ws/build/py_pubsub/prefix_override:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/py_pubsub/build --no-deps install_data
+[6.524s] running develop
+[7.080s] running egg_info
+[7.081s] writing py_pubsub.egg-info/PKG-INFO
+[7.082s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[7.083s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[7.084s] writing requirements to py_pubsub.egg-info/requires.txt
+[7.084s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[7.217s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[7.222s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[7.230s] running build_ext
+[7.233s] Creating /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)
+[7.242s] Installing listener script to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/py_pubsub
+[7.244s] Installing talker script to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/py_pubsub
+[7.247s] 
+[7.248s] Installed /home/ubuntu/pangolin_ws/build/py_pubsub
+[7.250s] running install_data
+[7.954s] Invoked command in '/home/ubuntu/pangolin_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/ubuntu/pangolin_ws/build/py_pubsub/prefix_override:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/py_pubsub/build --no-deps install_data

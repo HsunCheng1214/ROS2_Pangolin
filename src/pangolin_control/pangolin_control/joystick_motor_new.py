@@ -17,16 +17,25 @@ from os import geteuid
 from ServoCmd import Servo
 from std_msgs.msg import String
 
-servo_control = Servo()
 
 class Pangolin_Control(Node):
     def __init__(self):
+        self.servo_control = Servo()
         super().__init__('pangolin_controller')
         self.cmd_subscriber_ = self.create_subscription(Twist, 'cmd_vel', self.cmd_callback, 1)
 
     def cmd_callback(self, msg: Twist):
-        self.get_logger().info('  liner_x : "%s"' % msg.linear.x)
-        self.get_logger().info('angular_z : "%s"' % msg.angular.z)
+        self.liner_x = -(msg.linear.x)
+        self.angular_z = msg.angular.z
+
+        self.get_logger().info('  liner_x : "%s"' % self.liner_x)
+        self.get_logger().info('angular_z : "%s"' % self.angular_z)
+
+
+
+        self.servo_control.move_joystick(self.liner_x, self.angular_z)
+        # self.get_logger().info('I heard: "%s"' % msg)
+
 
             
 
