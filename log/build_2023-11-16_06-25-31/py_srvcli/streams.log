@@ -1,0 +1,41 @@
+[3.550s] Invoking command in '/home/ubuntu/pangolin_ws/src/py_srvcli': PYTHONPATH=/home/ubuntu/pangolin_ws/build/py_srvcli/prefix_override:/home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ubuntu/pangolin_ws/build/py_srvcli/build install --record /home/ubuntu/pangolin_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed
+[4.295s] running egg_info
+[4.297s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[4.297s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[4.298s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[4.299s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[4.299s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[4.300s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[4.311s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[4.433s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[4.436s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[4.437s] running build
+[4.438s] running build_py
+[4.438s] creating /home/ubuntu/pangolin_ws/build/py_srvcli/build
+[4.439s] creating /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib
+[4.439s] creating /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli
+[4.440s] copying py_srvcli/client_member_function.py -> /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli
+[4.441s] copying py_srvcli/service_member_function.py -> /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli
+[4.442s] copying py_srvcli/__init__.py -> /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli
+[4.442s] running install
+[4.444s] running install_lib
+[4.448s] creating /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[4.449s] copying /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[4.449s] copying /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[4.450s] copying /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli
+[4.452s] byte-compiling /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc
+[4.457s] byte-compiling /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc
+[4.459s] byte-compiling /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc
+[4.459s] running install_data
+[4.462s] creating /home/ubuntu/pangolin_ws/install/py_srvcli/share/ament_index
+[4.463s] creating /home/ubuntu/pangolin_ws/install/py_srvcli/share/ament_index/resource_index
+[4.464s] creating /home/ubuntu/pangolin_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[4.464s] copying resource/py_srvcli -> /home/ubuntu/pangolin_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[4.465s] copying package.xml -> /home/ubuntu/pangolin_ws/install/py_srvcli/share/py_srvcli
+[4.465s] running install_egg_info
+[4.470s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[4.475s] running install_scripts
+[4.535s] Installing client script to /home/ubuntu/pangolin_ws/install/py_srvcli/lib/py_srvcli
+[4.537s] Installing service script to /home/ubuntu/pangolin_ws/install/py_srvcli/lib/py_srvcli
+[4.538s] writing list of installed files to '/home/ubuntu/pangolin_ws/build/py_srvcli/install.log'
+[4.631s] Invoked command in '/home/ubuntu/pangolin_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/ubuntu/pangolin_ws/build/py_srvcli/prefix_override:/home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ubuntu/pangolin_ws/build/py_srvcli/build install --record /home/ubuntu/pangolin_ws/build/py_srvcli/install.log --install-scripts $base/lib/py_srvcli --single-version-externally-managed

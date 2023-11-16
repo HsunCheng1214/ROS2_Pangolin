@@ -16,6 +16,7 @@ from queue import Queue
 from os import geteuid
 from ServoCmd import Servo
 from std_msgs.msg import String
+from std_srvs.srv import SetBool
 
 
 class Pangolin_Control(Node):
@@ -23,8 +24,9 @@ class Pangolin_Control(Node):
         self.servo_control = Servo()
         super().__init__('pangolin_controller')
         self.cmd_subscriber_ = self.create_subscription(Twist, 'cmd_vel', self.cmd_callback, 1)
+        self.service_ = self.create_service(SetBool, 'set_bool', self.callbacke)
 
-    def cmd_callback(self, msg: Twist):
+    def cmd_callback(self, msg: Twist, request, response):
         self.liner_x = -(msg.linear.x)
         self.angular_z = msg.angular.z
 
@@ -39,7 +41,11 @@ class Pangolin_Control(Node):
         
         self.get_logger().info('  liner_x : "%s"' % self.liner_x)
         self.get_logger().info('angular_z : "%s"' % self.angular_z)
-            
+        self.get_logger().info('Received request: {0}'.format(request.data))
+
+        response.success = True
+        response.message = 'Service call successful'
+        return response    
 
 
 

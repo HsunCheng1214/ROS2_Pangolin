@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000529] (-) JobUnselected: {'identifier': 'pangolin_control'}
+[0.000689] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000798] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.000897] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.090176] (-) TimerEvent: {}
+[0.190901] (-) TimerEvent: {}
+[0.291859] (-) TimerEvent: {}
+[0.393157] (-) TimerEvent: {}
+[0.494744] (-) TimerEvent: {}
+[0.595464] (-) TimerEvent: {}
+[0.697140] (-) TimerEvent: {}
+[0.799750] (-) TimerEvent: {}
+[0.901876] (-) TimerEvent: {}
+[1.003441] (-) TimerEvent: {}
+[1.104563] (-) TimerEvent: {}
+[1.205261] (-) TimerEvent: {}
+[1.305944] (-) TimerEvent: {}
+[1.406612] (-) TimerEvent: {}
+[1.507267] (-) TimerEvent: {}
+[1.607956] (-) TimerEvent: {}
+[1.708726] (-) TimerEvent: {}
+[1.809615] (-) TimerEvent: {}
+[1.911428] (-) TimerEvent: {}
+[2.013623] (-) TimerEvent: {}
+[2.115332] (-) TimerEvent: {}
+[2.219443] (-) TimerEvent: {}
+[2.320351] (-) TimerEvent: {}
+[2.421067] (-) TimerEvent: {}
+[2.521783] (-) TimerEvent: {}
+[2.622448] (-) TimerEvent: {}
+[2.723102] (-) TimerEvent: {}
+[2.823794] (-) TimerEvent: {}
+[2.924521] (-) TimerEvent: {}
+[3.025209] (-) TimerEvent: {}
+[3.125918] (-) TimerEvent: {}
+[3.226642] (-) TimerEvent: {}
+[3.327348] (-) TimerEvent: {}
+[3.428155] (-) TimerEvent: {}
+[3.529610] (-) TimerEvent: {}
+[3.547583] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/ubuntu/pangolin_ws/build/py_srvcli/build', 'install', '--record', '/home/ubuntu/pangolin_ws/build/py_srvcli/install.log', '--install-scripts', '$base/lib/py_srvcli', '--single-version-externally-managed'], 'cwd': '/home/ubuntu/pangolin_ws/src/py_srvcli', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '10.100.3.84 52218 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/pangolin_ws/src', 'TERM_PROGRAM_VERSION': '1.84.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b35233a0-471d-45d4-8d23-91eee3bffbdc.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dad4036cfe.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pangolin_ws/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.100.3.84 52218 10.100.3.134 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pangolin_ws/build/py_srvcli/prefix_override:/home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1'}, 'shell': False}
+[3.629793] (-) TimerEvent: {}
+[3.730626] (-) TimerEvent: {}
+[3.831356] (-) TimerEvent: {}
+[3.932080] (-) TimerEvent: {}
+[4.032729] (-) TimerEvent: {}
+[4.133395] (-) TimerEvent: {}
+[4.234079] (-) TimerEvent: {}
+[4.295149] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[4.297168] (py_srvcli) StdoutLine: {'line': b'creating ../../build/py_srvcli/py_srvcli.egg-info\n'}
+[4.297776] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[4.298789] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[4.299419] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[4.299998] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[4.300512] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[4.312035] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[4.334257] (-) TimerEvent: {}
+[4.434007] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[4.434570] (-) TimerEvent: {}
+[4.437048] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[4.437693] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[4.438231] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[4.438858] (py_srvcli) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/build/py_srvcli/build\n'}
+[4.439359] (py_srvcli) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib\n'}
+[4.439807] (py_srvcli) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[4.440429] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[4.441240] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/service_member_function.py -> /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[4.442073] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/__init__.py -> /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[4.442821] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[4.444979] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[4.448594] (py_srvcli) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[4.449249] (py_srvcli) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[4.449733] (py_srvcli) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[4.450304] (py_srvcli) StdoutLine: {'line': b'copying /home/ubuntu/pangolin_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[4.452422] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc\n'}
+[4.457543] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc\n'}
+[4.459134] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/__init__.py to __init__.cpython-38.pyc\n'}
+[4.460013] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[4.462133] (py_srvcli) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/py_srvcli/share/ament_index\n'}
+[4.463521] (py_srvcli) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/py_srvcli/share/ament_index/resource_index\n'}
+[4.464450] (py_srvcli) StdoutLine: {'line': b'creating /home/ubuntu/pangolin_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[4.464877] (py_srvcli) StdoutLine: {'line': b'copying resource/py_srvcli -> /home/ubuntu/pangolin_ws/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[4.465264] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/pangolin_ws/install/py_srvcli/share/py_srvcli\n'}
+[4.465636] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.470344] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ubuntu/pangolin_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info\n'}
+[4.475074] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[4.534746] (-) TimerEvent: {}
+[4.535459] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/ubuntu/pangolin_ws/install/py_srvcli/lib/py_srvcli\n'}
+[4.537453] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/ubuntu/pangolin_ws/install/py_srvcli/lib/py_srvcli\n'}
+[4.538074] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/pangolin_ws/build/py_srvcli/install.log'\n"}
+[4.630869] (py_srvcli) CommandEnded: {'returncode': 0}
+[4.634931] (-) TimerEvent: {}
+[4.735837] (-) TimerEvent: {}
+[4.838164] (-) TimerEvent: {}
+[4.939569] (-) TimerEvent: {}
+[5.040907] (-) TimerEvent: {}
+[5.053656] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[5.056436] (-) EventReactorShutdown: {}
