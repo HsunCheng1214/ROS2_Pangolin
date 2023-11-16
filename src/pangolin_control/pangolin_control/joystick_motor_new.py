@@ -28,12 +28,22 @@ class Pangolin_Control(Node):
         self.liner_x = -(msg.linear.x)
         self.angular_z = msg.angular.z
 
+
+        if self.liner_x >= 0.01 and abs(self.angular_z) >= 0.01:
+            self.servo_control.move_joystick(0.4, self.angular_z)
+        elif self.liner_x <= -0.01 and abs(self.angular_z) >= 0.01:
+            self.servo_control.move_joystick(-0.4, self.angular_z)
+        elif abs(self.liner_x) >= 0.01 or abs(self.angular_z) >= 0.01:
+            self.servo_control.initial_position()
+            self.servo_control.move_joystick(self.liner_x, self.angular_z)
+        
         self.get_logger().info('  liner_x : "%s"' % self.liner_x)
         self.get_logger().info('angular_z : "%s"' % self.angular_z)
+            
 
 
 
-        self.servo_control.move_joystick(self.liner_x, self.angular_z)
+        # self.servo_control.move_joystick(self.liner_x, self.angular_z)
         # self.get_logger().info('I heard: "%s"' % msg)
 
 
