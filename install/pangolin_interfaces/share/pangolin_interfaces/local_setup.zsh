@@ -1,0 +1,1 @@
+/home/ubuntu/pangolin_ws/build/pangolin_interfaces/ament_cmake_environment_hooks/local_setup.zsh

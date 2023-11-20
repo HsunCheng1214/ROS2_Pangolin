@@ -1,0 +1,21 @@
+[2.577s] Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces': CMAKE_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/py_srvcli:/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pangolin_ws/build/pangolin_interfaces -- -j4 -l4
+[3.990s] Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/py_srvcli:/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pangolin_ws/build/pangolin_interfaces -- -j4 -l4
+[4.138s] Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces': CMAKE_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/py_srvcli:/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/pangolin_ws/build/pangolin_interfaces
+[4.179s] -- Install configuration: ""
+[4.182s] -- Execute custom install script
+[4.184s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/package_run_dependencies/pangolin_interfaces
+[4.186s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/parent_prefix_path/pangolin_interfaces
+[4.188s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/ament_prefix_path.sh
+[4.190s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/ament_prefix_path.dsv
+[4.192s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/path.sh
+[4.195s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/path.dsv
+[4.199s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.bash
+[4.203s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.sh
+[4.205s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.zsh
+[4.206s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.dsv
+[4.207s] -- Symlinking: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.dsv
+[4.248s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/packages/pangolin_interfaces
+[4.249s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfacesConfig.cmake
+[4.250s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfacesConfig-version.cmake
+[4.252s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.xml
+[4.264s] Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/py_srvcli:/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/pangolin_ws/build/pangolin_interfaces

@@ -24,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'pangolin_control = pangolin_control.joystick_motor_new:main'
+            'pangolin_control = pangolin_control.control_node:main'
         ],
     },
 )

@@ -1,0 +1,92 @@
+[1.230s] Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pangolin_ws/install/py_srvcli:/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pangolin_ws/build/pangolin_interfaces -- -j4 -l4
+[1.456s] [  3%] Built target pangolin_interfaces__cpp
+[1.466s] [ 12%] Built target pangolin_interfaces__rosidl_generator_c
+[1.589s] [ 22%] Built target pangolin_interfaces__rosidl_typesupport_cpp
+[1.611s] [ 32%] Built target pangolin_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.632s] [ 41%] Built target pangolin_interfaces__rosidl_typesupport_c
+[1.634s] [ 51%] Built target pangolin_interfaces__rosidl_typesupport_introspection_cpp
+[1.709s] [ 61%] Built target pangolin_interfaces__rosidl_typesupport_introspection_c
+[1.744s] [ 70%] Built target pangolin_interfaces__rosidl_typesupport_fastrtps_c
+[1.834s] [ 70%] Built target pangolin_interfaces
+[1.921s] [ 74%] Built target pangolin_interfaces__py
+[2.023s] [ 80%] Built target pangolin_interfaces__python
+[2.147s] [ 87%] Built target pangolin_interfaces__rosidl_typesupport_c__pyext
+[2.155s] [ 93%] Built target pangolin_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.166s] [100%] Built target pangolin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.901s] Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pangolin_ws/install/py_srvcli:/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pangolin_ws/build/pangolin_interfaces -- -j4 -l4
+[3.212s] Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pangolin_ws/install/py_srvcli:/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/pangolin_ws/build/pangolin_interfaces
+[3.245s] -- Install configuration: ""
+[3.247s] -- Execute custom install script
+[3.249s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/rosidl_interfaces/pangolin_interfaces
+[3.253s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__functions.h
+[3.254s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__struct.h
+[3.255s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__type_support.h
+[3.257s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/pangolin_action.h
+[3.258s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.260s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/library_path.sh
+[3.262s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/library_path.dsv
+[3.265s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__rosidl_typesupport_fastrtps_c.h
+[3.266s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.269s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.273s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__rosidl_typesupport_fastrtps_cpp.hpp
+[3.274s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.276s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.279s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__rosidl_typesupport_introspection_c.h
+[3.281s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.284s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__builder.hpp
+[3.285s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__struct.hpp
+[3.286s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__traits.hpp
+[3.288s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__type_support.hpp
+[3.289s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/pangolin_action.hpp
+[3.290s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.293s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__rosidl_typesupport_introspection_cpp.hpp
+[3.294s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/pythonpath.sh
+[3.296s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/pythonpath.dsv
+[3.297s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/__init__.py
+[3.300s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/action/__init__.py
+[3.301s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/action/_pangolin_action.py
+[3.304s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/pangolin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[3.306s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/pangolin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[3.308s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/pangolin_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[3.310s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__python.so
+[3.311s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/action/PangolinAction.idl
+[3.312s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/action/PangolinAction.action
+[3.314s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/package_run_dependencies/pangolin_interfaces
+[3.316s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/parent_prefix_path/pangolin_interfaces
+[3.317s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/ament_prefix_path.sh
+[3.319s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/ament_prefix_path.dsv
+[3.322s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/path.sh
+[3.322s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/path.dsv
+[3.325s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.bash
+[3.325s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.sh
+[3.326s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.zsh
+[3.328s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.dsv
+[3.330s] -- Symlinking: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.dsv
+[3.365s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/packages/pangolin_interfaces
+[3.366s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.368s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.369s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.371s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.372s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.374s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.375s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.377s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfacesConfig.cmake
+[3.378s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfacesConfig-version.cmake
+[3.379s] -- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.xml
+[3.381s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_generator_c.so
+[3.383s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_introspection_c.so
+[3.385s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_c.so
+[3.388s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.390s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_cpp.so
+[3.555s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_generator_cExport.cmake
+[3.556s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.557s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.557s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.560s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_cExport.cmake
+[3.561s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.562s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_generator_cppExport.cmake
+[3.562s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.564s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.564s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_cppExport.cmake
+[3.565s] -- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.571s] Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pangolin_ws/install/py_srvcli:/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/pangolin_ws/build/pangolin_interfaces

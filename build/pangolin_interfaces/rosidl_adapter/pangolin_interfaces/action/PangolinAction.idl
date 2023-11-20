@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from pangolin_interfaces/action/PangolinAction.action
+// generated code does not contain a copyright notice
+
+
+module pangolin_interfaces {
+  module action {
+    struct PangolinAction_Goal {
+      string act_name;
+    };
+    struct PangolinAction_Result {
+      boolean success;
+    };
+    struct PangolinAction_Feedback {
+      int32 which_action;
+    };
+  };
+};

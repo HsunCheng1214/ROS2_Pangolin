@@ -1,0 +1,6 @@
+{
+  "package_name": "pangolin_interfaces",
+  "non_idl_tuples": [
+    "/home/ubuntu/pangolin_ws/src/pangolin_interfaces:action/PangolinAction.action"
+  ]
+}

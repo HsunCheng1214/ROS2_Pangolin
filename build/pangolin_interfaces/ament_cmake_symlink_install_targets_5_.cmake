@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/pangolin_ws/build/pangolin_interfaces/rosidl_generator_py/pangolin_interfaces/libpangolin_interfaces__python.so" "TARGETS" "pangolin_interfaces__python" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

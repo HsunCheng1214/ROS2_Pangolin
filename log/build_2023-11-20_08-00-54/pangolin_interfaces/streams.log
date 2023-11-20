@@ -1,0 +1,60 @@
+[1.234s] Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pangolin_ws/install/py_srvcli:/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pangolin_ws/build/pangolin_interfaces -- -j4 -l4
+[1.341s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.470s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.278s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.311s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.424s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.955s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.282s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.447s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.251s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[4.252s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[4.252s]   pangolin_interfaces --arguments-file
+[4.253s]   /home/ubuntu/pangolin_ws/build/pangolin_interfaces/rosidl_adapter__arguments__pangolin_interfaces.json
+[4.253s]   --output-dir
+[4.254s]   /home/ubuntu/pangolin_ws/build/pangolin_interfaces/rosidl_adapter/pangolin_interfaces
+[4.254s]   --output-file
+[4.254s]   /home/ubuntu/pangolin_ws/build/pangolin_interfaces/rosidl_adapter/pangolin_interfaces.idls)
+[4.255s]   returned error code 1:
+[4.255s] 
+[4.256s]   Error processing 'int which_action' of
+[4.256s]   'pangolin_interfaces/PangolinAction_Feedback': ''int' is an invalid message
+[4.256s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[4.257s] 
+[4.257s]   Traceback (most recent call last):
+[4.257s] 
+[4.258s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[4.258s]       return _run_code(code, main_globals, None,
+[4.258s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[4.259s]       exec(code, run_globals)
+[4.259s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[4.259s]       sys.exit(main())
+[4.260s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[4.260s]       abs_idl_file = convert_to_idl(
+[4.260s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[4.262s]       return convert_action_to_idl(
+[4.262s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[4.263s]       action = parse_action_string(package_name, input_file.stem, content)
+[4.265s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 896, in parse_action_string
+[4.266s]       feedback_message = parse_message_string(
+[4.268s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[4.269s]       Type(type_string, context_package_name=pkg_name),
+[4.271s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[4.272s]       super(Type, self).__init__(
+[4.274s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[4.276s]       raise InvalidResourceName(
+[4.278s] 
+[4.280s]   rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message
+[4.283s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[4.285s] 
+[4.287s] Call Stack (most recent call first):
+[4.288s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[4.290s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[4.291s] 
+[4.293s] 
+[4.294s] -- Configuring incomplete, errors occurred!
+[4.295s] See also "/home/ubuntu/pangolin_ws/build/pangolin_interfaces/CMakeFiles/CMakeOutput.log".
+[4.296s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[4.304s] Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/pangolin_ws/install/py_srvcli:/home/ubuntu/pangolin_ws/install/py_pubsub:/home/ubuntu/pangolin_ws/install/pangolin_control:/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pangolin_ws/build/pangolin_interfaces -- -j4 -l4

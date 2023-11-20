@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ubuntu/pangolin_ws/build/pangolin_interfaces/libpangolin_interfaces__rosidl_typesupport_fastrtps_cpp.so" "TARGETS" "pangolin_interfaces__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

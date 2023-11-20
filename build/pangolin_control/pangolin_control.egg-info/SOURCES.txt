@@ -4,8 +4,8 @@ setup.py
 config/joyps3.config.yaml
 launch/pangolin_control.launch.py
 pangolin_control/__init__.py
+pangolin_control/control_node.py
 pangolin_control/joystick_motor.py
-pangolin_control/joystick_motor_new.py
 pangolin_control.egg-info/PKG-INFO
 pangolin_control.egg-info/SOURCES.txt
 pangolin_control.egg-info/dependency_links.txt
