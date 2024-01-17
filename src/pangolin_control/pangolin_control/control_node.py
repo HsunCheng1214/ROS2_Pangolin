@@ -27,64 +27,6 @@ class Pangolin_Control(Node):
         self.servo_control = Servo()
         super().__init__('pangolin_controller')
         self.cmd_subscriber_ = self.create_subscription(Twist, 'cmd_vel', self.cmd_callback, 1)
-        
-        self.panpolin_action_server_ = ActionServer(
-            self, PangolinAction, 'pangolin_action', execute_callback=self.pangolin_execute_callback,
-            callback_group=ReentrantCallbackGroup(), goal_callback=self.pangolin_goal_callback,
-            cancel_callback=self.pangolin_cancel_callback
-        )
-
-    #Action_server
-    def handle_accepeted_callback(self, goal_handle):
-        with self._goal_lock:
-            # This server only allows one goal at a time
-            if self._goal_lock is not None and self._goal_handle.is_active:
-                self.get_logger().info('Aborting previous goal')
-                # Abort the existing goal
-                self._goal_handle.abort()
-            self._goal_handle = goal_handle
-        goal_handle.execute()
-
-    def pangolin_goal_callback(self, goal_request):
-        """Accept or reject a client request to begin an action."""
-        # This server allows multiple goals in parallel
-        self.get_logger().info('Received goal request')
-        return GoalResponse.ACCEPT
-
-    def pangolin_cancel_callback(self, goal_handle):
-        """Accept or reject a client request to cancel an action."""
-        self.get_logger().info('Received cancel request')
-        return CancelResponse.ACCEPT
-    
-    def pangolin_execute_callback(self, goal_handle):
-        """Execute a goal"""
-        self.get_logger().info('Eecuting goal...')
-
-        feedback_msg = PangolinAction.Feedback()
-        feedback_msg.which_action = 0
-
-        if not goal_handle.is_active:
-            self.get_logger().info('Goal aborted')
-            return PangolinAction.Resault()
-        
-        if goal_handle.is_cancel_requested:
-            goal_handle.canceled()
-            self.get_logger().info('Goal canceled')
-            return PangolinAction.Resault()
-        
-        self.servo_control.sit_down(self)
-        sleep(1)
-        self.servo_control.stand_up(self)
-
-        goal_handle.succeed()
-        # Populate result message
-        result = PangolinAction.Result()
-        result.success = True
-        self.get_logger().info('Returning result: {0}'.format(result.success))
-        return result
-
-
-
 
     def cmd_callback(self, msg: Twist,):
         self.liner_x = -(msg.linear.x)
@@ -113,9 +55,6 @@ def main(args=None):
 
     rclpy.spin(PangolinControl)
 
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
     PangolinControl.destroy_node()
     rclpy.shutdown()
 

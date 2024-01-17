@@ -1,0 +1,266 @@
+[7.508s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[7.509s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff7ff285e0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff7ff285e0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff7fab2a30>)
+[7.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[7.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.941s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/pangolin_ws'
+[7.942s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[7.942s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[7.942s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[7.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[7.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[7.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[7.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[7.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[7.943s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.005s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.006s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.007s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.007s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.008s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.008s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.009s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.009s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.010s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.011s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.011s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.011s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[8.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[8.012s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[8.013s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[8.013s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[8.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[8.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[8.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[8.014s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[8.015s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[8.015s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[8.015s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[8.016s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[8.016s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[8.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extensions ['ignore', 'ignore_ament_install']
+[8.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extension 'ignore'
+[8.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extension 'ignore_ament_install'
+[8.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extensions ['colcon_pkg']
+[8.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extension 'colcon_pkg'
+[8.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extensions ['colcon_meta']
+[8.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extension 'colcon_meta'
+[8.018s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extensions ['ros']
+[8.019s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_control) by extension 'ros'
+[8.035s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pangolin_control' with type 'ros.ament_python' and name 'pangolin_control'
+[8.036s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[8.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_interfaces) by extension 'ignore'
+[8.037s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_interfaces) by extension 'ignore_ament_install'
+[8.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_interfaces) by extensions ['colcon_pkg']
+[8.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_interfaces) by extension 'colcon_pkg'
+[8.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_interfaces) by extensions ['colcon_meta']
+[8.038s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_interfaces) by extension 'colcon_meta'
+[8.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_interfaces) by extensions ['ros']
+[8.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/pangolin_interfaces) by extension 'ros'
+[8.043s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pangolin_interfaces' with type 'ros.ament_cmake' and name 'pangolin_interfaces'
+[8.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[8.044s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[8.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[8.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[8.045s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[8.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[8.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[8.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[8.046s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[8.049s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[8.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.050s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[8.050s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[8.050s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.050s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[8.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[9.000s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 175 installed packages in /opt/ros/foxy
+[9.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[9.475s] Level 5:colcon.colcon_core.verb:set package 'pangolin_interfaces' build argument 'cmake_args' from command line to 'None'
+[9.475s] Level 5:colcon.colcon_core.verb:set package 'pangolin_interfaces' build argument 'cmake_target' from command line to 'None'
+[9.475s] Level 5:colcon.colcon_core.verb:set package 'pangolin_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.475s] Level 5:colcon.colcon_core.verb:set package 'pangolin_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[9.475s] Level 5:colcon.colcon_core.verb:set package 'pangolin_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[9.475s] Level 5:colcon.colcon_core.verb:set package 'pangolin_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[9.476s] Level 5:colcon.colcon_core.verb:set package 'pangolin_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[9.476s] Level 5:colcon.colcon_core.verb:set package 'pangolin_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[9.476s] Level 5:colcon.colcon_core.verb:set package 'pangolin_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.476s] DEBUG:colcon.colcon_core.verb:Building package 'pangolin_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pangolin_ws/build/pangolin_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pangolin_ws/install/pangolin_interfaces', 'merge_install': False, 'path': '/home/ubuntu/pangolin_ws/src/pangolin_interfaces', 'symlink_install': True, 'test_result_base': None}
+[9.603s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[9.603s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[9.603s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.603s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[9.604s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[9.604s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[9.604s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[9.604s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[9.604s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.604s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pangolin_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pangolin_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/ubuntu/pangolin_ws/src/py_pubsub', 'symlink_install': True, 'test_result_base': None}
+[9.730s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_args' from command line to 'None'
+[9.730s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_target' from command line to 'None'
+[9.730s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[9.730s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_clean_cache' from command line to 'False'
+[9.730s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_clean_first' from command line to 'False'
+[9.730s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'cmake_force_configure' from command line to 'False'
+[9.731s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'ament_cmake_args' from command line to 'None'
+[9.731s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'catkin_cmake_args' from command line to 'None'
+[9.731s] Level 5:colcon.colcon_core.verb:set package 'pangolin_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[9.731s] DEBUG:colcon.colcon_core.verb:Building package 'pangolin_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/pangolin_ws/build/pangolin_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/pangolin_ws/install/pangolin_control', 'merge_install': False, 'path': '/home/ubuntu/pangolin_ws/src/pangolin_control', 'symlink_install': True, 'test_result_base': None}
+[9.854s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[10.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[10.026s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/pangolin_ws/src/pangolin_interfaces' with build type 'ament_cmake'
+[10.027s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/pangolin_ws/src/pangolin_interfaces'
+[10.169s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[10.170s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.170s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.447s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/pangolin_ws/src/py_pubsub' with build type 'ament_python'
+[10.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[10.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[10.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[10.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[10.771s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.771s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pangolin_ws/build/pangolin_interfaces -- -j4 -l4
+[12.264s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/pangolin_ws/src/py_pubsub'
+[12.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pangolin_ws/build/py_pubsub': PYTHONPATH=/home/ubuntu/pangolin_ws/build/py_pubsub/prefix_override:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/py_pubsub/build --no-deps install_data
+[15.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ubuntu/pangolin_ws/build/pangolin_interfaces -- -j4 -l4
+[15.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/pangolin_ws/build/pangolin_interfaces
+[16.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pangolin_interfaces)
+[16.191s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ubuntu/pangolin_ws/build/pangolin_interfaces
+[16.391s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces' for CMake module files
+[16.396s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces' for CMake config files
+[16.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_interfaces', 'cmake_prefix_path')
+[16.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/cmake_prefix_path.ps1'
+[16.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/cmake_prefix_path.dsv'
+[16.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/cmake_prefix_path.sh'
+[16.575s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib'
+[16.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_interfaces', 'ld_library_path_lib')
+[16.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/ld_library_path_lib.ps1'
+[16.743s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/ld_library_path_lib.dsv'
+[16.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/ld_library_path_lib.sh'
+[16.747s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/bin'
+[16.748s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/pkgconfig/pangolin_interfaces.pc'
+[16.749s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages'
+[16.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_interfaces', 'pythonpath')
+[16.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/pythonpath.ps1'
+[16.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/pythonpath.dsv'
+[16.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/pythonpath.sh'
+[16.922s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/bin'
+[17.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.ps1'
+[17.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.dsv'
+[17.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.sh'
+[17.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.bash'
+[17.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.zsh'
+[17.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/colcon-core/packages/pangolin_interfaces)
+[17.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath_develop')
+[17.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/pangolin_ws/build/py_pubsub' returned '0': PYTHONPATH=/home/ubuntu/pangolin_ws/build/py_pubsub/prefix_override:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/py_pubsub/build --no-deps install_data
+[17.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.ps1'
+[17.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.dsv'
+[17.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/build/py_pubsub/share/py_pubsub/hook/pythonpath_develop.sh'
+[17.552s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub' for CMake module files
+[17.554s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub' for CMake config files
+[17.557s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub/lib'
+[17.558s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub/bin'
+[17.558s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[17.559s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages'
+[17.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[17.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[17.699s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[17.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[17.703s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/py_pubsub/bin'
+[17.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[17.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[17.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[17.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[17.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[17.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[17.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/pangolin_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[17.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pangolin_interfaces)
+[18.112s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces' for CMake module files
+[18.116s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces' for CMake config files
+[18.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_interfaces', 'cmake_prefix_path')
+[18.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/cmake_prefix_path.ps1'
+[18.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/cmake_prefix_path.dsv'
+[18.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/cmake_prefix_path.sh'
+[18.275s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib'
+[18.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_interfaces', 'ld_library_path_lib')
+[18.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/ld_library_path_lib.ps1'
+[18.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/ld_library_path_lib.dsv'
+[18.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/ld_library_path_lib.sh'
+[18.411s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/bin'
+[18.412s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/pkgconfig/pangolin_interfaces.pc'
+[18.413s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages'
+[18.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_interfaces', 'pythonpath')
+[18.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/pythonpath.ps1'
+[18.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/pythonpath.dsv'
+[18.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/hook/pythonpath.sh'
+[18.557s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/bin'
+[18.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.ps1'
+[18.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.dsv'
+[18.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.sh'
+[18.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.bash'
+[18.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.zsh'
+[18.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/colcon-core/packages/pangolin_interfaces)
+[18.705s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/pangolin_ws/src/pangolin_control' with build type 'ament_python'
+[18.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_control', 'ament_prefix_path')
+[18.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/ament_prefix_path.ps1'
+[18.852s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/ament_prefix_path.dsv'
+[18.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/ament_prefix_path.sh'
+[18.989s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.989s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.300s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/pangolin_ws/src/pangolin_control'
+[20.435s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.435s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_control': AMENT_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces LD_LIBRARY_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/pangolin_control/build --no-deps install_data
+[23.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_control', 'pythonpath_develop')
+[23.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_control' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces LD_LIBRARY_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/pangolin_control/build --no-deps install_data
+[23.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/build/pangolin_control/share/pangolin_control/hook/pythonpath_develop.ps1'
+[23.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/build/pangolin_control/share/pangolin_control/hook/pythonpath_develop.dsv'
+[23.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/build/pangolin_control/share/pangolin_control/hook/pythonpath_develop.sh'
+[23.945s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control' for CMake module files
+[23.947s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control' for CMake config files
+[23.950s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control/lib'
+[23.951s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control/bin'
+[23.951s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control/lib/pkgconfig/pangolin_control.pc'
+[23.952s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages'
+[23.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin_control', 'pythonpath')
+[24.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/pythonpath.ps1'
+[24.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/pythonpath.dsv'
+[24.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/hook/pythonpath.sh'
+[24.135s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/pangolin_ws/install/pangolin_control/bin'
+[24.135s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pangolin_control)
+[24.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/package.ps1'
+[24.270s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/package.dsv'
+[24.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/package.sh'
+[24.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/package.bash'
+[24.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/pangolin_ws/install/pangolin_control/share/pangolin_control/package.zsh'
+[24.279s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/pangolin_ws/install/pangolin_control/share/colcon-core/packages/pangolin_control)
+[24.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.282s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.283s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.284s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.444s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[24.445s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.446s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.446s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.478s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[24.479s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.616s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pangolin_ws/install/local_setup.ps1'
+[24.620s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/pangolin_ws/install/_local_setup_util_ps1.py'
+[24.626s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pangolin_ws/install/setup.ps1'
+[24.757s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pangolin_ws/install/local_setup.sh'
+[24.761s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/pangolin_ws/install/_local_setup_util_sh.py'
+[24.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pangolin_ws/install/setup.sh'
+[24.897s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pangolin_ws/install/local_setup.bash'
+[24.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pangolin_ws/install/setup.bash'
+[25.033s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/pangolin_ws/install/local_setup.zsh'
+[25.037s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/pangolin_ws/install/setup.zsh'

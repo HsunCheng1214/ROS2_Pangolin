@@ -1,0 +1,293 @@
+[0.000000] (-) TimerEvent: {}
+[0.001105] (pangolin_interfaces) JobQueued: {'identifier': 'pangolin_interfaces', 'dependencies': OrderedDict()}
+[0.001473] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002432] (pangolin_control) JobQueued: {'identifier': 'pangolin_control', 'dependencies': OrderedDict([('pangolin_interfaces', '/home/ubuntu/pangolin_ws/install/pangolin_interfaces')])}
+[0.003097] (pangolin_interfaces) JobStarted: {'identifier': 'pangolin_interfaces'}
+[0.099304] (-) TimerEvent: {}
+[0.200756] (-) TimerEvent: {}
+[0.303642] (-) TimerEvent: {}
+[0.406369] (-) TimerEvent: {}
+[0.423732] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.506591] (-) TimerEvent: {}
+[0.608941] (-) TimerEvent: {}
+[0.709968] (-) TimerEvent: {}
+[0.811738] (-) TimerEvent: {}
+[0.914445] (-) TimerEvent: {}
+[1.016826] (-) TimerEvent: {}
+[1.033729] (pangolin_interfaces) JobProgress: {'identifier': 'pangolin_interfaces', 'progress': 'cmake'}
+[1.040467] (pangolin_interfaces) JobProgress: {'identifier': 'pangolin_interfaces', 'progress': 'build'}
+[1.044154] (pangolin_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/pangolin_ws/build/pangolin_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/pangolin_ws/build/pangolin_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.249 40688 22'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-76eb74f6-4962-4702-b3a9-f87d1deafb67.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af2612f19b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pangolin_ws/build/pangolin_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.249 40688 192.168.1.218 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.116942] (-) TimerEvent: {}
+[1.218115] (-) TimerEvent: {}
+[1.319099] (-) TimerEvent: {}
+[1.357156] (pangolin_interfaces) StdoutLine: {'line': b'[  3%] Built target pangolin_interfaces__cpp\n'}
+[1.385598] (pangolin_interfaces) StdoutLine: {'line': b'[ 12%] Built target pangolin_interfaces__rosidl_generator_c\n'}
+[1.419451] (-) TimerEvent: {}
+[1.514338] (pangolin_interfaces) StdoutLine: {'line': b'[ 22%] Built target pangolin_interfaces__rosidl_typesupport_cpp\n'}
+[1.519726] (-) TimerEvent: {}
+[1.524319] (pangolin_interfaces) StdoutLine: {'line': b'[ 32%] Built target pangolin_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.543803] (pangolin_interfaces) StdoutLine: {'line': b'[ 41%] Built target pangolin_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.565684] (pangolin_interfaces) StdoutLine: {'line': b'[ 51%] Built target pangolin_interfaces__rosidl_typesupport_c\n'}
+[1.619909] (-) TimerEvent: {}
+[1.637601] (pangolin_interfaces) StdoutLine: {'line': b'[ 61%] Built target pangolin_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.670899] (pangolin_interfaces) StdoutLine: {'line': b'[ 70%] Built target pangolin_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.720094] (-) TimerEvent: {}
+[1.761020] (pangolin_interfaces) StdoutLine: {'line': b'[ 70%] Built target pangolin_interfaces\n'}
+[1.820321] (-) TimerEvent: {}
+[1.857256] (pangolin_interfaces) StdoutLine: {'line': b'[ 74%] Built target pangolin_interfaces__py\n'}
+[1.910161] (pangolin_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pangolin_interfaces__python\x1b[0m\n'}
+[1.920477] (-) TimerEvent: {}
+[2.021334] (-) TimerEvent: {}
+[2.049661] (pangolin_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/pangolin_interfaces__python.dir/rosidl_generator_py/pangolin_interfaces/action/_pangolin_action_s.c.o\x1b[0m\n'}
+[2.121494] (-) TimerEvent: {}
+[2.222437] (-) TimerEvent: {}
+[2.323760] (-) TimerEvent: {}
+[2.425760] (-) TimerEvent: {}
+[2.527812] (-) TimerEvent: {}
+[2.629313] (-) TimerEvent: {}
+[2.735063] (-) TimerEvent: {}
+[2.837321] (-) TimerEvent: {}
+[2.938560] (-) TimerEvent: {}
+[3.039561] (-) TimerEvent: {}
+[3.140665] (-) TimerEvent: {}
+[3.242414] (-) TimerEvent: {}
+[3.343364] (-) TimerEvent: {}
+[3.401931] (pangolin_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pangolin_interfaces/libpangolin_interfaces__python.so\x1b[0m\n'}
+[3.443545] (-) TimerEvent: {}
+[3.544431] (-) TimerEvent: {}
+[3.646461] (-) TimerEvent: {}
+[3.723690] (pangolin_interfaces) StdoutLine: {'line': b'[ 80%] Built target pangolin_interfaces__python\n'}
+[3.746659] (-) TimerEvent: {}
+[3.787168] (pangolin_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pangolin_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.788094] (pangolin_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pangolin_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.803630] (pangolin_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pangolin_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.846826] (-) TimerEvent: {}
+[3.891105] (pangolin_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/pangolin_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pangolin_interfaces/_pangolin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.910342] (pangolin_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/pangolin_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pangolin_interfaces/_pangolin_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.947128] (-) TimerEvent: {}
+[3.957030] (pangolin_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/pangolin_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pangolin_interfaces/_pangolin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.047346] (-) TimerEvent: {}
+[4.148228] (-) TimerEvent: {}
+[4.249286] (-) TimerEvent: {}
+[4.350296] (-) TimerEvent: {}
+[4.451436] (-) TimerEvent: {}
+[4.552507] (-) TimerEvent: {}
+[4.653154] (pangolin_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pangolin_interfaces/pangolin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[4.654037] (-) TimerEvent: {}
+[4.664149] (pangolin_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pangolin_interfaces/pangolin_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[4.692845] (pangolin_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/pangolin_interfaces/pangolin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[4.754335] (-) TimerEvent: {}
+[4.855739] (-) TimerEvent: {}
+[4.957590] (-) TimerEvent: {}
+[5.059512] (-) TimerEvent: {}
+[5.070470] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/pangolin_ws/build/py_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/pangolin_ws/build/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.1.249 40688 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.85.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-76eb74f6-4962-4702-b3a9-f87d1deafb67.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-af2612f19b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pangolin_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.249 40688 192.168.1.218 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pangolin_ws/build/py_pubsub/prefix_override:/home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1'}, 'shell': False}
+[5.101995] (pangolin_interfaces) StdoutLine: {'line': b'[100%] Built target pangolin_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.159752] (-) TimerEvent: {}
+[5.161918] (pangolin_interfaces) StdoutLine: {'line': b'[100%] Built target pangolin_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.260054] (-) TimerEvent: {}
+[5.362531] (-) TimerEvent: {}
+[5.381635] (pangolin_interfaces) StdoutLine: {'line': b'[100%] Built target pangolin_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.436862] (pangolin_interfaces) CommandEnded: {'returncode': 0}
+[5.462768] (-) TimerEvent: {}
+[5.563799] (-) TimerEvent: {}
+[5.665373] (-) TimerEvent: {}
+[5.698792] (pangolin_interfaces) JobProgress: {'identifier': 'pangolin_interfaces', 'progress': 'install'}
+[5.737663] (pangolin_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/pangolin_ws/build/pangolin_interfaces'], 'cwd': '/home/ubuntu/pangolin_ws/build/pangolin_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.1.249 40688 22'), ('LC_TIME', 'lzh_TW'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-76eb74f6-4962-4702-b3a9-f87d1deafb67.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'lzh_TW'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'lzh_TW'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af2612f19b.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'lzh_TW'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'lzh_TW'), ('LC_IDENTIFICATION', 'lzh_TW'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ubuntu/pangolin_ws/build/pangolin_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.1.249 40688 192.168.1.218 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'lzh_TW'), ('LC_PAPER', 'lzh_TW'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.765643] (-) TimerEvent: {}
+[5.780517] (pangolin_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.783669] (pangolin_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.785735] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/rosidl_interfaces/pangolin_interfaces\n'}
+[5.791671] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__functions.h\n'}
+[5.793103] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__struct.h\n'}
+[5.794523] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__type_support.h\n'}
+[5.795720] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/pangolin_action.h\n'}
+[5.796949] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.798714] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/library_path.sh\n'}
+[5.800259] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/library_path.dsv\n'}
+[5.804173] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__rosidl_typesupport_fastrtps_c.h\n'}
+[5.805471] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.808332] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.812450] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.813761] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.816411] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.819566] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__rosidl_typesupport_introspection_c.h\n'}
+[5.820909] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.824308] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__builder.hpp\n'}
+[5.825631] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__struct.hpp\n'}
+[5.827007] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__traits.hpp\n'}
+[5.828585] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__type_support.hpp\n'}
+[5.829584] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/pangolin_action.hpp\n'}
+[5.830959] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[5.833883] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/include/pangolin_interfaces/action/detail/pangolin_action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.835580] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/pythonpath.sh\n'}
+[5.837138] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/pythonpath.dsv\n'}
+[5.838839] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/__init__.py\n'}
+[5.841425] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/action/__init__.py\n'}
+[5.842782] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/action/_pangolin_action.py\n'}
+[5.845722] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/pangolin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[5.849350] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/pangolin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[5.851627] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages/pangolin_interfaces/pangolin_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[5.854357] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__python.so\n'}
+[5.856129] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/action/PangolinAction.idl\n'}
+[5.857671] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/action/PangolinAction.action\n'}
+[5.859528] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/package_run_dependencies/pangolin_interfaces\n'}
+[5.861320] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/parent_prefix_path/pangolin_interfaces\n'}
+[5.863037] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/ament_prefix_path.sh\n'}
+[5.864619] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/ament_prefix_path.dsv\n'}
+[5.865750] (-) TimerEvent: {}
+[5.867677] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/path.sh\n'}
+[5.868724] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/environment/path.dsv\n'}
+[5.869709] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.bash\n'}
+[5.871330] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.sh\n'}
+[5.873945] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.zsh\n'}
+[5.875412] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/local_setup.dsv\n'}
+[5.876368] (pangolin_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.dsv\n'}
+[5.910662] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/ament_index/resource_index/packages/pangolin_interfaces\n'}
+[5.912156] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[5.913698] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.915503] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.917111] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.918779] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.920507] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.922163] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.923965] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfacesConfig.cmake\n'}
+[5.925233] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfacesConfig-version.cmake\n'}
+[5.926816] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/package.xml\n'}
+[5.930498] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_generator_c.so\n'}
+[5.934920] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.939030] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_c.so\n'}
+[5.943440] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.947807] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/libpangolin_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.965944] (-) TimerEvent: {}
+[6.066892] (-) TimerEvent: {}
+[6.135891] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_generator_cExport.cmake\n'}
+[6.137535] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.139215] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.140085] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.143125] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[6.144686] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.147895] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_generator_cppExport.cmake\n'}
+[6.151010] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.152374] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.155658] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[6.156972] (pangolin_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/pangolin_ws/install/pangolin_interfaces/share/pangolin_interfaces/cmake/pangolin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.164980] (pangolin_interfaces) CommandEnded: {'returncode': 0}
+[6.166892] (-) TimerEvent: {}
+[6.267790] (-) TimerEvent: {}
+[6.304039] (py_pubsub) StdoutLine: {'line': b'running develop\n'}
+[6.367953] (-) TimerEvent: {}
+[6.469886] (-) TimerEvent: {}
+[6.572000] (-) TimerEvent: {}
+[6.674182] (-) TimerEvent: {}
+[6.776332] (-) TimerEvent: {}
+[6.878863] (-) TimerEvent: {}
+[6.914717] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[6.916802] (py_pubsub) StdoutLine: {'line': b'writing py_pubsub.egg-info/PKG-INFO\n'}
+[6.919616] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to py_pubsub.egg-info/dependency_links.txt\n'}
+[6.921481] (py_pubsub) StdoutLine: {'line': b'writing entry points to py_pubsub.egg-info/entry_points.txt\n'}
+[6.923069] (py_pubsub) StdoutLine: {'line': b'writing requirements to py_pubsub.egg-info/requires.txt\n'}
+[6.924661] (py_pubsub) StdoutLine: {'line': b'writing top-level names to py_pubsub.egg-info/top_level.txt\n'}
+[6.979149] (-) TimerEvent: {}
+[7.058324] (py_pubsub) StdoutLine: {'line': b"reading manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[7.062914] (py_pubsub) StdoutLine: {'line': b"writing manifest file 'py_pubsub.egg-info/SOURCES.txt'\n"}
+[7.069191] (py_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[7.070305] (py_pubsub) StdoutLine: {'line': b'Creating /home/ubuntu/pangolin_ws/install/py_pubsub/lib/python3.8/site-packages/py-pubsub.egg-link (link to .)\n'}
+[7.074739] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.075616] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/ubuntu/pangolin_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.077484] (py_pubsub) StdoutLine: {'line': b'\n'}
+[7.078419] (py_pubsub) StdoutLine: {'line': b'Installed /home/ubuntu/pangolin_ws/build/py_pubsub\n'}
+[7.083550] (-) TimerEvent: {}
+[7.088086] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[7.183961] (-) TimerEvent: {}
+[7.211306] (py_pubsub) CommandEnded: {'returncode': 0}
+[7.284356] (-) TimerEvent: {}
+[7.388085] (-) TimerEvent: {}
+[7.489667] (-) TimerEvent: {}
+[7.590924] (-) TimerEvent: {}
+[7.692318] (-) TimerEvent: {}
+[7.793145] (-) TimerEvent: {}
+[7.823959] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[7.893439] (-) TimerEvent: {}
+[7.995134] (-) TimerEvent: {}
+[8.096580] (-) TimerEvent: {}
+[8.197617] (-) TimerEvent: {}
+[8.299782] (-) TimerEvent: {}
+[8.401704] (-) TimerEvent: {}
+[8.502993] (-) TimerEvent: {}
+[8.604665] (-) TimerEvent: {}
+[8.681224] (pangolin_interfaces) JobEnded: {'identifier': 'pangolin_interfaces', 'rc': 0}
+[8.684109] (pangolin_control) JobStarted: {'identifier': 'pangolin_control'}
+[8.704894] (-) TimerEvent: {}
+[8.806818] (-) TimerEvent: {}
+[8.909370] (-) TimerEvent: {}
+[9.011780] (-) TimerEvent: {}
+[9.112570] (-) TimerEvent: {}
+[9.215269] (-) TimerEvent: {}
+[9.316241] (-) TimerEvent: {}
+[9.417521] (-) TimerEvent: {}
+[9.520160] (-) TimerEvent: {}
+[9.623129] (-) TimerEvent: {}
+[9.724938] (-) TimerEvent: {}
+[9.825960] (-) TimerEvent: {}
+[9.926796] (-) TimerEvent: {}
+[10.027492] (-) TimerEvent: {}
+[10.128247] (-) TimerEvent: {}
+[10.229180] (-) TimerEvent: {}
+[10.330678] (-) TimerEvent: {}
+[10.432750] (-) TimerEvent: {}
+[10.534718] (-) TimerEvent: {}
+[10.637145] (-) TimerEvent: {}
+[10.739106] (-) TimerEvent: {}
+[10.840429] (-) TimerEvent: {}
+[10.941416] (-) TimerEvent: {}
+[11.042342] (-) TimerEvent: {}
+[11.143162] (-) TimerEvent: {}
+[11.243871] (-) TimerEvent: {}
+[11.344602] (-) TimerEvent: {}
+[11.445364] (-) TimerEvent: {}
+[11.546289] (-) TimerEvent: {}
+[11.647180] (-) TimerEvent: {}
+[11.747928] (-) TimerEvent: {}
+[11.848714] (-) TimerEvent: {}
+[11.949695] (-) TimerEvent: {}
+[12.051035] (-) TimerEvent: {}
+[12.057385] (pangolin_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ubuntu/pangolin_ws/build/pangolin_control/build', '--no-deps', 'install_data'], 'cwd': '/home/ubuntu/pangolin_ws/build/pangolin_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '192.168.1.249 40688 22', 'LC_TIME': 'lzh_TW', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'TERM_PROGRAM_VERSION': '1.85.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-76eb74f6-4962-4702-b3a9-f87d1deafb67.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lzh_TW', 'VSCODE_GIT_ASKPASS_NODE': '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/ubuntu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'lzh_TW', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'lzh_TW', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-af2612f19b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install/pangolin_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'lzh_TW', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lzh_TW', 'LC_IDENTIFICATION': 'lzh_TW', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ubuntu/pangolin_ws/build/pangolin_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.249 40688 192.168.1.218 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'lzh_TW', 'LC_PAPER': 'lzh_TW', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/pangolin_ws/install/pangolin_interfaces'}, 'shell': False}
+[12.151232] (-) TimerEvent: {}
+[12.252086] (-) TimerEvent: {}
+[12.352951] (-) TimerEvent: {}
+[12.453752] (-) TimerEvent: {}
+[12.554527] (-) TimerEvent: {}
+[12.655250] (-) TimerEvent: {}
+[12.756026] (-) TimerEvent: {}
+[12.856854] (-) TimerEvent: {}
+[12.916685] (pangolin_control) StdoutLine: {'line': b'running develop\n'}
+[12.956998] (-) TimerEvent: {}
+[13.057720] (-) TimerEvent: {}
+[13.158458] (-) TimerEvent: {}
+[13.259170] (-) TimerEvent: {}
+[13.359869] (-) TimerEvent: {}
+[13.389953] (pangolin_control) StdoutLine: {'line': b'running egg_info\n'}
+[13.390774] (pangolin_control) StdoutLine: {'line': b'writing pangolin_control.egg-info/PKG-INFO\n'}
+[13.391649] (pangolin_control) StdoutLine: {'line': b'writing dependency_links to pangolin_control.egg-info/dependency_links.txt\n'}
+[13.392660] (pangolin_control) StdoutLine: {'line': b'writing entry points to pangolin_control.egg-info/entry_points.txt\n'}
+[13.393480] (pangolin_control) StdoutLine: {'line': b'writing requirements to pangolin_control.egg-info/requires.txt\n'}
+[13.394077] (pangolin_control) StdoutLine: {'line': b'writing top-level names to pangolin_control.egg-info/top_level.txt\n'}
+[13.460049] (-) TimerEvent: {}
+[13.516238] (pangolin_control) StdoutLine: {'line': b"reading manifest file 'pangolin_control.egg-info/SOURCES.txt'\n"}
+[13.520089] (pangolin_control) StdoutLine: {'line': b"writing manifest file 'pangolin_control.egg-info/SOURCES.txt'\n"}
+[13.525424] (pangolin_control) StdoutLine: {'line': b'running build_ext\n'}
+[13.526883] (pangolin_control) StdoutLine: {'line': b'Creating /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin-control.egg-link (link to .)\n'}
+[13.531550] (pangolin_control) StdoutLine: {'line': b'Installing pangolin_control script to /home/ubuntu/pangolin_ws/install/pangolin_control/lib/pangolin_control\n'}
+[13.532926] (pangolin_control) StdoutLine: {'line': b'\n'}
+[13.533538] (pangolin_control) StdoutLine: {'line': b'Installed /home/ubuntu/pangolin_ws/build/pangolin_control\n'}
+[13.533928] (pangolin_control) StdoutLine: {'line': b'running install_data\n'}
+[13.560249] (-) TimerEvent: {}
+[13.640254] (pangolin_control) CommandEnded: {'returncode': 0}
+[13.660890] (-) TimerEvent: {}
+[13.761816] (-) TimerEvent: {}
+[13.864018] (-) TimerEvent: {}
+[13.966335] (-) TimerEvent: {}
+[14.067846] (-) TimerEvent: {}
+[14.169020] (-) TimerEvent: {}
+[14.256188] (pangolin_control) JobEnded: {'identifier': 'pangolin_control', 'rc': 0}
+[14.261856] (-) EventReactorShutdown: {}

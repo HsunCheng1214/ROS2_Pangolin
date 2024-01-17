@@ -1,0 +1,17 @@
+[3.383s] Invoking command in '/home/ubuntu/pangolin_ws/build/pangolin_control': AMENT_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces LD_LIBRARY_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/pangolin_control/build --no-deps install_data
+[4.233s] running develop
+[4.706s] running egg_info
+[4.707s] writing pangolin_control.egg-info/PKG-INFO
+[4.708s] writing dependency_links to pangolin_control.egg-info/dependency_links.txt
+[4.709s] writing entry points to pangolin_control.egg-info/entry_points.txt
+[4.710s] writing requirements to pangolin_control.egg-info/requires.txt
+[4.710s] writing top-level names to pangolin_control.egg-info/top_level.txt
+[4.832s] reading manifest file 'pangolin_control.egg-info/SOURCES.txt'
+[4.836s] writing manifest file 'pangolin_control.egg-info/SOURCES.txt'
+[4.842s] running build_ext
+[4.843s] Creating /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin-control.egg-link (link to .)
+[4.848s] Installing pangolin_control script to /home/ubuntu/pangolin_ws/install/pangolin_control/lib/pangolin_control
+[4.849s] 
+[4.850s] Installed /home/ubuntu/pangolin_ws/build/pangolin_control
+[4.850s] running install_data
+[4.957s] Invoked command in '/home/ubuntu/pangolin_ws/build/pangolin_control' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces LD_LIBRARY_PATH=/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/pangolin_ws/build/pangolin_control/prefix_override:/home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages:/home/ubuntu/pangolin_ws/install/pangolin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/pangolin_ws/build/pangolin_control/build --no-deps install_data
