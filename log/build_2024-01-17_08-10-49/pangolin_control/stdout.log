@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing pangolin_control.egg-info/PKG-INFO
+writing dependency_links to pangolin_control.egg-info/dependency_links.txt
+writing entry points to pangolin_control.egg-info/entry_points.txt
+writing requirements to pangolin_control.egg-info/requires.txt
+writing top-level names to pangolin_control.egg-info/top_level.txt
+reading manifest file 'pangolin_control.egg-info/SOURCES.txt'
+writing manifest file 'pangolin_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/pangolin_ws/install/pangolin_control/lib/python3.8/site-packages/pangolin-control.egg-link (link to .)
+Installing pangolin_control script to /home/ubuntu/pangolin_ws/install/pangolin_control/lib/pangolin_control
+
+Installed /home/ubuntu/pangolin_ws/build/pangolin_control
+running install_data
